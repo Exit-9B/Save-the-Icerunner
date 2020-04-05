@@ -1,0 +1,48 @@
+<PapyrusProject
+  xmlns="PapyrusProject.xsd"
+  Flags="TESV_Papyrus_Flags.flg"
+  Output="@myproject\Scripts"
+  Game="sse"
+  Optimize="true" Anonymize="true" Package="false" Zip="false">
+  <Variables>
+    <Variable Name="modname" Value="Save the Icerunner"/>
+    <Variable Name="plugin" Value="SaveTheIcerunner"/>
+    <Variable Name="myproject" Value="E:\ModOrganizer\SkyrimSE\mods\@modname"/>
+  </Variables>
+  <Imports>
+    <Import>@myproject\Source\Scripts</Import>
+    <Import>E:\SteamLibrary\steamapps\common\Skyrim Special Edition\Data\Source\Scripts</Import>
+  </Imports>
+  <Scripts>
+    <!-- Vanilla scripts -->
+    <Script>MS07LampScript.psc</Script>
+    <Script>MS07Script.psc</Script>
+    <Script>MS07setstageonhitaliasscript.psc</Script>
+    <Script>QF_dunIcerunnerQST_000906D4.psc</Script>
+    <Script>QF_MS07_00023A64.psc</Script>
+    <Script>QF_MS07Start_000AA9A9.psc</Script>
+    <Script>SF_MS07OpeningScene_000C588D.psc</Script>
+    <Script>TIF__00025F5B.psc</Script>
+    <Script>TIF__00025F6B.psc</Script>
+    <Script>TIF__00025F63.psc</Script>
+    <Script>TIF__00061F08.psc</Script>
+    <Script>TIF__0007EADC.psc</Script>
+    <Script>TIF__0007EADE.psc</Script>
+    <Script>TIF__0007EAEA.psc</Script>
+    <Script>TIF__0007EAED.psc</Script>
+    <Script>TIF__0007EAEF.psc</Script>
+    <Script>TIF__0007EAF4.psc</Script>
+    <Script>TIF__0009D9F2.psc</Script>
+    <Script>TIF__000A6BE9.psc</Script>
+    <Script>TIF__000AA9A8.psc</Script>
+    <Script>TIF__000AAA14.psc</Script>
+  </Scripts>
+  <Packages Output="@myproject">
+    <Package Name="@plugin" RootDir="@myproject">
+      <Include NoRecurse="true">Scripts</Include>
+    </Package>
+  </Packages>
+  <ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
+    <Include NoRecurse="false">Source</Include>
+  </ZipFile>
+</PapyrusProject>

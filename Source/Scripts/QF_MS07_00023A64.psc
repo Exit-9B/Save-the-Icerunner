@@ -116,8 +116,9 @@ Alias_MS07Deeja.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
 Alias_MS07Deeja.GetActorRef().AddItem(Alias_MS07DeejaNote.GetRef())
 
 ;USLEEP 3.0.10 Bug #21172
-Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -1)
-Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -1)
+Actor Player = Alias_Player.GetActorReference()
+Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Player, -1)
+Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Player, -1)
 
 Alias_MS07IceRunnerMapMarker.GetRef().AddToMap()
 setObjectiveDisplayed(125)                 ; Find Deeja at the wreck of the Icerunner
@@ -235,7 +236,7 @@ setObjectiveDisplayed(150)                      ; Defeat Deeja
 
 IcerunnerQST.Setstage(20)
 MS07BanditSiblings.SetEnemy(PlayerFaction)
-Alias_MS07Deeja.GetActorRef().startcombat(Game.GetPlayer())
+Alias_MS07Deeja.GetActorRef().startcombat(Alias_Player.GetActorReference())
 ;Alias_MS07Deeja.setessential(false)
 Alias_MS07JareeRa.GetRef().moveto(alias_MS07JareeRaCampBrokenOarMarker.GetRef())
 Alias_MS07JareeRa.GetActorRef().GetActorBase().SetEssential(false)

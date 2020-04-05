@@ -115,6 +115,10 @@ Alias_MS07Deeja.GetActorRef().SetCrimeFaction(None)
 Alias_MS07Deeja.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
 Alias_MS07Deeja.GetActorRef().AddItem(Alias_MS07DeejaNote.GetRef())
 
+;USLEEP 3.0.10 Bug #21172
+Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -1)
+Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -1)
+
 Alias_MS07IceRunnerMapMarker.GetRef().AddToMap()
 setObjectiveDisplayed(125)                 ; Find Deeja at the wreck of the Icerunner
 ;END CODE
@@ -189,6 +193,9 @@ Function Fragment_46()
 ;BEGIN CODE
 setObjectiveCompleted(225)                    ; Defeat Jaree-Ra
 Alias_MS07DeejaNote.GetRef().Disable()
+;USLEEP 3.0.4 Bug #19942
+Alias_MS07LighthouseFireOff.GetReference().Disable()
+Alias_MS07LighthouseFire.GetReference().Enable()
 AchievementsQuest.IncSideQuests()
 Stop()
 ;END CODE

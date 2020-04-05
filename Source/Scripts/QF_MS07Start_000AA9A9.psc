@@ -11,6 +11,7 @@ ReferenceAlias Property Alias_MS07StartJareeRa Auto
 Function Fragment_1()
 ;BEGIN CODE
 setObjectiveCompleted (10)
+Stop() ;USLEEP Bug #19969
 ;END CODE
 EndFunction
 ;END FRAGMENT

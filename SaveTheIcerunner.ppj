@@ -37,6 +37,7 @@
     <Script>QF_MS07_00023A64.psc</Script>
     <Script>QF_MS07Start_000AA9A9.psc</Script>
     <Script>TIF__00025F63.psc</Script>
+    <Script>TIF__00061F08.psc</Script>
   </Scripts>
   <Packages Output="@myproject">
     <Package Name="@plugin" RootDir="@myproject">

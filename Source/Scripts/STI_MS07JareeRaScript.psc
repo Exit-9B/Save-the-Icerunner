@@ -6,7 +6,7 @@ Event OnDeath(Actor akKiller)
 	if MS07.GetStage() < 10
 		; Player never heard the offer
 		MS07.Stop()
-	elseif !MS07.GetStageDone(100)
+	elseif MS07.GetStage() < 100
 		; Player hasn't put out the fire
 		MS07.SetStage(300)
 	elseif MS07.GetStage() < 125

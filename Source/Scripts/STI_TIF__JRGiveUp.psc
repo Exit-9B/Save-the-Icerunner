@@ -1,11 +1,12 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
 ;NEXT FRAGMENT INDEX 1
-Scriptname SF_MS07OpeningScene_000C588D Extends Scene Hidden
+Scriptname STI_TIF__JRGiveUp Extends TopicInfo Hidden
 
 ;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
+Function Fragment_0(ObjectReference akSpeakerRef)
+Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-GetOwningQuest().Setstage(8)
+GetOwningQuest().SetStage(310)
 ;END CODE
 EndFunction
 ;END FRAGMENT

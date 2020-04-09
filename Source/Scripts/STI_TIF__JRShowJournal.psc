@@ -1,12 +1,12 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
 ;NEXT FRAGMENT INDEX 1
-Scriptname TIF__00061F08 Extends TopicInfo Hidden
+Scriptname STI_TIF__JRShowJournal Extends TopicInfo Hidden
 
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-GetOwningQuest().setStage(50)
+(GetOwningQuest() as MS07Script).ConfrontedJareeRa = 1
 ;END CODE
 EndFunction
 ;END FRAGMENT

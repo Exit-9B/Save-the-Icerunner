@@ -1,0 +1,4005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin version="0.5">
+  <TES4 flags="0x00000000" id="00000000" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+    <HEDR>
+      <struct version="1.70000005" numRecords="123" nextObjectID="00006e55" />
+    </HEDR>
+    <CNAM>Parapets</CNAM>
+    <MAST>Skyrim.esm</MAST>
+    <DATA>0</DATA>
+    <INTV>1</INTV>
+  </TES4>
+  <GRUP label="KYWD" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <KYWD flags="0x00000000" id="0100082e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIArrestKeyword</EDID>
+      <CNAM>0,0,0,0</CNAM>
+    </KYWD>
+  </GRUP>
+  <GRUP label="NPC_" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <NPC_ flags="0x00040000" id="00013268" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>Deeja</EDID>
+      <VMAD version="5" format="2">
+        <script name="WIDeadBodyCleanupScript" status="0">
+          <property name="WI" type="1" status="1">
+            <object formID="00035d64" alias="65535" unused="0x0000" />
+          </property>
+          <property name="DeathContainer" type="1" status="1">
+            <object formID="000861fb" alias="65535" unused="0x0000" />
+          </property>
+        </script>
+      </VMAD>
+      <OBND>
+        <struct min="-22,-14,0" max="22,14,128" />
+      </OBND>
+      <ACBS>
+        <struct flags="0x000000b1" magickaOffset="0" staminaOffset="0" level="1000" calcMinLevel="10" calcMaxLevel="30" speedMultiplier="100" dispositionBase="0" templateDataFlags="0" healthOffset="0" bleedoutOverride="0" />
+      </ACBS>
+      <SNAM>
+        <struct faction="00025f95" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="0002817c" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="00029db0" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="00085dbf" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="0008e764" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <VTCK>00013aef</VTCK>
+      <RNAM>00013740</RNAM>
+      <COCT>3</COCT>
+      <CNTO>
+        <struct item="00017178" count="1" />
+      </CNTO>
+      <CNTO>
+        <struct item="00037c2b" count="3" />
+      </CNTO>
+      <CNTO>
+        <struct item="001046d2" count="1" />
+      </CNTO>
+      <AIDT>
+        <struct aggression="1" confidence="3" energy="50" morality="3" mood="0" assistance="1" flags="0" unknown="0x00" warn="0" warnAttack="0" attack="0" />
+      </AIDT>
+      <PKID>00034c01</PKID>
+      <PKID>00034c02</PKID>
+      <PKID>00034bdb</PKID>
+      <PKID>0001b217</PKID>
+      <CNAM>0001317f</CNAM>
+      <FULL>Deeja</FULL>
+      <DATA />
+      <DNAM>
+        <struct baseSkill="34|15|28|15|15|15|33|20|25|40|15|15|27|15|15|15|20|15" modSkill="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0" calculatedHealth="125" calculatedMagicka="65" calculatedStamina="95" unknown0="0x416c" farAwayModelDistance="0" gearedUpWeapons="1" unknown1="0x74|0xb2|0x83" />
+      </DNAM>
+      <PNAM>000a2eaf</PNAM>
+      <PNAM>000b2e1d</PNAM>
+      <PNAM>000d3343</PNAM>
+      <HCLF>000829cf</HCLF>
+      <ZNAM>00068849</ZNAM>
+      <NAM5>255</NAM5>
+      <NAM6>1</NAM6>
+      <NAM7>100</NAM7>
+      <NAM8>1</NAM8>
+      <DOFT>00037c4f</DOFT>
+      <SOFT>0001697d</SOFT>
+      <CRIF>00029db0</CRIF>
+      <FTST>00069ce0</FTST>
+      <QNAM>0.411764741,0.513725519,0.400000036</QNAM>
+      <NAM9>
+        <struct noseLongShort="0.300000012" noseUpDown="-0.300000012" jawUpDown="-0.600000024" jawNarrowWide="1" jawForwardBack="1" cheeksUpDown="1" cheeksForwardBack="-0.600000024" eyesUpDown="-0.600000024" eyesInOut="-0.400000006" browsUpDown="-1" browsInOut="-0.800000012" browsForwardBack="0.100000001" lipsUpDown="0" lipsInOut="0" chipThinWide="0" chinUpDown="0" chinUnderbiteOverbite="0" eyesForwardBack="0" unknown="0x7f7fffff" />
+      </NAM9>
+      <NAMA>
+        <struct nose="1" unknown="0xffffffff" eyes="0" mouth="0" />
+      </NAMA>
+      <TINI>16</TINI>
+      <TINC>74,137,69,0</TINC>
+      <TINV>42</TINV>
+      <TIAS>268</TIAS>
+      <TINI>17</TINI>
+      <TINC>17,14,6,0</TINC>
+      <TINV>69</TINV>
+      <TIAS>303</TIAS>
+      <TINI>18</TINI>
+      <TINC>17,14,6,0</TINC>
+      <TINV>69</TINV>
+      <TIAS>315</TIAS>
+      <TINI>19</TINI>
+      <TINC>241,231,92,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>357</TIAS>
+      <TINI>20</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>340</TIAS>
+      <TINI>21</TINI>
+      <TINC>17,14,6,0</TINC>
+      <TINV>69</TINV>
+      <TIAS>327</TIAS>
+      <TINI>23</TINI>
+      <TINC>17,14,6,0</TINC>
+      <TINV>69</TINV>
+      <TIAS>399</TIAS>
+      <TINI>24</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>424</TIAS>
+      <TINI>25</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>436</TIAS>
+      <TINI>30</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>352</TIAS>
+      <TINI>31</TINI>
+      <TINC>17,14,6,0</TINC>
+      <TINV>69</TINV>
+      <TIAS>291</TIAS>
+      <TINI>32</TINI>
+      <TINC>17,14,6,0</TINC>
+      <TINV>69</TINV>
+      <TIAS>411</TIAS>
+      <TINI>33</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>448</TIAS>
+      <TINI>34</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>376</TIAS>
+      <TINI>42</TINI>
+      <TINC>241,231,92,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>453</TIAS>
+      <TINI>43</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>472</TIAS>
+    </NPC_>
+    <NPC_ flags="0x00040000" id="0001328d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x000d">
+      <EDID>JareeRa</EDID>
+      <VMAD version="5" format="2">
+        <script name="WIDeadBodyCleanupScript" status="0">
+          <property name="WI" type="1" status="1">
+            <object formID="00035d64" alias="65535" unused="0x0000" />
+          </property>
+          <property name="DeathContainer" type="1" status="1">
+            <object formID="000861fa" alias="65535" unused="0x0000" />
+          </property>
+        </script>
+      </VMAD>
+      <OBND>
+        <struct min="-22,-14,0" max="22,14,128" />
+      </OBND>
+      <ACBS>
+        <struct flags="0x000000b0" magickaOffset="0" staminaOffset="0" level="1000" calcMinLevel="4" calcMaxLevel="50" speedMultiplier="100" dispositionBase="0" templateDataFlags="0" healthOffset="0" bleedoutOverride="0" />
+      </ACBS>
+      <SNAM>
+        <struct faction="00025f95" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="0002817c" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="00029db0" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="0005c84d" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <SNAM>
+        <struct faction="00085dbf" rank="0" unused="0x00|0x00|0x00" />
+      </SNAM>
+      <VTCK>00013aee</VTCK>
+      <RNAM>00013740</RNAM>
+      <PRKZ>5</PRKZ>
+      <PRKR>
+        <struct perk="0005820c" rank="1" unknown="0x00|0x00|0x00" />
+      </PRKR>
+      <PRKR>
+        <struct perk="00058213" rank="1" unknown="0x00|0x00|0x00" />
+      </PRKR>
+      <PRKR>
+        <struct perk="0005f56f" rank="1" unknown="0x00|0x00|0x00" />
+      </PRKR>
+      <PRKR>
+        <struct perk="000cb406" rank="1" unknown="0x00|0x00|0x00" />
+      </PRKR>
+      <PRKR>
+        <struct perk="00106256" rank="1" unknown="0x00|0x00|0x00" />
+      </PRKR>
+      <COCT>2</COCT>
+      <CNTO>
+        <struct item="00013986" count="1" />
+      </CNTO>
+      <CNTO>
+        <struct item="001046d3" count="1" />
+      </CNTO>
+      <AIDT>
+        <struct aggression="1" confidence="3" energy="50" morality="0" mood="0" assistance="0" flags="0" unknown="0x00" warn="0" warnAttack="0" attack="0" />
+      </AIDT>
+      <PKID>0100080b</PKID>
+      <PKID>0001e61a</PKID>
+      <PKID>00034c01</PKID>
+      <PKID>00034c00</PKID>
+      <PKID>00034bdb</PKID>
+      <PKID>0001b217</PKID>
+      <CNAM>00013180</CNAM>
+      <FULL>Jaree-Ra</FULL>
+      <SHRT>Jaree</SHRT>
+      <DATA />
+      <DNAM>
+        <struct baseSkill="22|15|17|19|15|15|24|20|25|27|15|15|20|15|15|15|20|15" modSkill="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0" calculatedHealth="80" calculatedMagicka="50" calculatedStamina="65" unknown0="0x416c" farAwayModelDistance="0" gearedUpWeapons="1" unknown1="0x74|0xb2|0x83" />
+      </DNAM>
+      <PNAM>0009d75c</PNAM>
+      <PNAM>000b2fd5</PNAM>
+      <PNAM>000d3352</PNAM>
+      <HCLF>000829cf</HCLF>
+      <NAM5>255</NAM5>
+      <NAM6>1</NAM6>
+      <NAM7>80</NAM7>
+      <NAM8>1</NAM8>
+      <DOFT>00037c4f</DOFT>
+      <SOFT>0001697d</SOFT>
+      <CRIF>00029db0</CRIF>
+      <QNAM>0.764705956,0.619607866,0.80392164</QNAM>
+      <NAM9>
+        <struct noseLongShort="0" noseUpDown="0" jawUpDown="0" jawNarrowWide="0" jawForwardBack="0" cheeksUpDown="0" cheeksForwardBack="0" eyesUpDown="-1" eyesInOut="0.400000006" browsUpDown="0" browsInOut="0" browsForwardBack="0" lipsUpDown="0" lipsInOut="0.400000006" chipThinWide="0" chinUpDown="0" chinUnderbiteOverbite="-0.300000012" eyesForwardBack="1" unknown="0x7f7fffff" />
+      </NAM9>
+      <NAMA>
+        <struct nose="4" unknown="0xffffffff" eyes="2" mouth="0" />
+      </NAMA>
+      <TINI>6</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>72</TIAS>
+      <TINI>7</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>84</TIAS>
+      <TINI>8</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>132</TIAS>
+      <TINI>9</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>108</TIAS>
+      <TINI>11</TINI>
+      <TINC>47,32,19,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>104</TIAS>
+      <TINI>12</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>156</TIAS>
+      <TINI>13</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>168</TIAS>
+      <TINI>14</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>202</TIAS>
+      <TINI>15</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>214</TIAS>
+      <TINI>26</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>144</TIAS>
+      <TINI>27</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>180</TIAS>
+      <TINI>28</TINI>
+      <TINC>210,105,0,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>62</TIAS>
+      <TINI>29</TINI>
+      <TINC>67,4,1,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>120</TIAS>
+      <TINI>35</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>226</TIAS>
+      <TINI>36</TINI>
+      <TINC>47,32,19,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>264</TIAS>
+      <TINI>38</TINI>
+      <TINC>226,172,240,0</TINC>
+      <TINV>69</TINV>
+      <TIAS>59</TIAS>
+      <TINI>39</TINI>
+      <TINC>86,49,18,0</TINC>
+      <TINV>100</TINV>
+      <TIAS>235</TIAS>
+      <TINI>40</TINI>
+      <TINC>253,253,253,0</TINC>
+      <TINV>0</TINV>
+      <TIAS>250</TIAS>
+    </NPC_>
+  </GRUP>
+  <GRUP label="CELL" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <GRUP label="0x00000006" groupType="2" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <GRUP label="0x00000007" groupType="3" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+        <CELL flags="0x00040000" id="00056e88" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x000f">
+          <EDID>SolitudeJail01</EDID>
+          <FULL>Castle Dour Dungeon</FULL>
+          <DATA>2300</DATA>
+          <XCLL>
+            <struct ambient="51,51,34,0" directional="84,72,65,0" fogNearColor="63,94,129,0" fogNear="0" fogFar="5000" rotationXY="0" rotationZ="0" directionalFade="0" fogClipDistance="3200" fogPow="0.699999988" ambientPositiveX="56,51,35,0" ambientNegativeX="45,51,32,0" ambientPositiveY="51,53,34,0" ambientNegativeY="51,48,34,0" ambientPositiveZ="24,24,15,0" ambientNegativeZ="77,77,52,0" specularColor="0,0,0,0" fresnelPower="1" fogFarColor="50,95,101,0" fogMax="0.800000012" lightFadeDistanceStart="5000" lightFadeDistanceEnd="6000" inheritFlags="0x00000000" />
+          </XCLL>
+          <LTMP>0006ab01</LTMP>
+          <XCLW>-2.14748365e+09</XCLW>
+          <XLCN>000bed97</XLCN>
+          <XCIM>000a2687</XCIM>
+          <XOWN>0002ebee</XOWN>
+          <XCMO>00094bdd</XCMO>
+          <XCAS>0004075d</XCAS>
+        </CELL>
+        <GRUP label="0x00056e88" groupType="6" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+          <GRUP label="0x00056e88" groupType="8" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+            <REFR flags="0x00000400" id="0100082a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <EDID>STIJareeRaJailRef</EDID>
+              <NAME>00000034</NAME>
+              <DATA>
+                <struct position="781.103088,2351.07104,-576" rotation="0,-0,2.3561945" />
+              </DATA>
+            </REFR>
+          </GRUP>
+          <GRUP label="0x00056e88" groupType="9" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+            <REFR flags="0x00000100" id="0005e920" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0003">
+              <NAME>0005e91d</NAME>
+              <XLOC>
+                <struct level="255" unknown0="0x00|0x00|0x00" key="00000000" flags="0x00" unknown1="0x00|0x00|0x00" unknown2="0x00|0x00|0x00|0x00|0x00|0x00|0x00|0x00" />
+              </XLOC>
+              <XOWN>0002ebee</XOWN>
+              <XLRL>000bed97</XLRL>
+              <DATA>
+                <struct position="875.21814,2261.21191,-575.999878" rotation="-1.57079375,-0.785398185,6.28318262" />
+              </DATA>
+            </REFR>
+          </GRUP>
+        </GRUP>
+      </GRUP>
+    </GRUP>
+    <GRUP label="0x00000009" groupType="2" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <GRUP label="0x00000008" groupType="3" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+        <CELL flags="0x00040000" id="000ba599" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x000a">
+          <EDID>BrokenOarGrotto01</EDID>
+          <FULL>Broken Oar Grotto</FULL>
+          <DATA>8300</DATA>
+          <XCLL>
+            <struct ambient="32,38,33,0" directional="52,158,153,0" fogNearColor="46,90,114,0" fogNear="0" fogFar="4500" rotationXY="0" rotationZ="90" directionalFade="1" fogClipDistance="0" fogPow="0.600000024" ambientPositiveX="48,39,28,0" ambientNegativeX="39,39,25,0" ambientPositiveY="44,40,27,0" ambientNegativeY="44,37,27,0" ambientPositiveZ="20,18,12,0" ambientNegativeZ="92,82,56,0" specularColor="151,213,167,0" fresnelPower="1" fogFarColor="151,213,167,0" fogMax="1" lightFadeDistanceStart="0" lightFadeDistanceEnd="0" inheritFlags="0x000003d9" />
+          </XCLL>
+          <LTMP>000345a2</LTMP>
+          <XCLW>-2.14748365e+09</XCLW>
+          <XLCN>00019153</XLCN>
+          <XCWT>00033da7</XCWT>
+          <XWEM>Data\Textures\Cubemaps\CaveGreenCube_e.dds</XWEM>
+          <XCCM>0010fe79</XCCM>
+          <XCAS>0001989f</XCAS>
+          <XEZN>0003ebfc</XEZN>
+          <XCMO>00094bdd</XCMO>
+          <XCIM>000a2687</XCIM>
+        </CELL>
+        <GRUP label="0x000ba599" groupType="6" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+          <GRUP label="0x000ba599" groupType="8" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+            <REFR flags="0x00000400" id="000babb5" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0003">
+              <NAME>000babb4</NAME>
+              <XRGD>002e3b30000000000000000000000000d604bcbafcc78d3ab5adbb3f00a2912700a01740000000bb0000003ab752dd3690b5653778f8c93f</XRGD>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="8418.07422,11719.0928,8410.74121" rotation="0,-0,1.4900043" />
+              </DATA>
+            </REFR>
+          </GRUP>
+        </GRUP>
+      </GRUP>
+    </GRUP>
+  </GRUP>
+  <GRUP label="DIAL" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <DIAL flags="0x00000000" id="00025f50" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
+      <EDID>Ms07AfterLamp0</EDID>
+      <FULL>I put out the Lighthouse fire.</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>00025f7e</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>3</TIFC>
+    </DIAL>
+    <GRUP label="0x00025f50" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="00025f6b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x000a">
+        <VMAD version="5" format="2">
+          <script name="TIF__00025F6B" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="TIF__00025F6B">
+            <fragment unknown="0x01" scriptName="TIF__00025F6B" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>The effects have already been felt. The Icerunner has failed to dock on time.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Without the Lighthouse, the Icerunner will have swung wide of the western shoal and run aground on the eastern coast.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="3" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>My sister Deeja will be at the wreck with our Blackblood Marauders. She knows to expect you.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>100</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>5</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0x00000007</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="01000800" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__JRKilledDeeja" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__JRKilledDeeja">
+            <fragment unknown="0x01" scriptName="STI_TIF__JRKilledDeeja" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>00025f6b</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Yeah... that's not gonna happen.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>You've betrayed me, murdered my sister!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="3" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>You're not getting anything from me!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>100</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>5</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0x00000007</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9aa98</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::KilledDeeja_var</CIS2>
+        <RNAM>I put out the Lighthouse fire. Let's go over there and collect the loot.</RNAM>
+      </INFO>
+      <INFO flags="0x00000000" id="01000801" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__JRDeejaDied" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__JRDeejaDied">
+            <fragment unknown="0x01" scriptName="STI_TIF__JRDeejaDied" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>01000800</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Yeah... that's not gonna happen.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Time for you to die!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>100</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>5</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0x00000007</unknown1>
+        </CTDA>
+        <RNAM>I put out the Lighthouse fire. Let's go over there and collect the loot.</RNAM>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="00025f53" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JRWhatIf0</EDID>
+      <FULL>Setting up a wreck? I should turn you in to the guards.</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>00025f76</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x00025f53" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="00025f60" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="6" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Turn me in? For what? What crime's been committed? I'm just making idle talk about what would most undoubtedly be a tragic event...</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="5" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>A tragic, and very, very profitable event.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>50</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="00025f56" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="7" subtypeID="79" unused="0x00" />
+      </DATA>
+      <SNAM>1330398536</SNAM>
+      <TIFC>10</TIFC>
+    </DIAL>
+    <GRUP label="0x00025f56" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="00025f70" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0004" resetTime="0" />
+        </ENAM>
+        <PNAM>00025f6f</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>You look new. I'm new, too. I think we could be friends.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>10</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000d6c55" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="1092" />
+        </ENAM>
+        <PNAM>00025f70</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="5" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>If you're looking for opportunities to make some coin, well... I'm your man.</NAM1>
+        <NAM2></NAM2>
+        <NAM3>If you are looking for things to do that pay well I'm your man.</NAM3>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>10</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000d6c56" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000d6c55</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Everyone needs work, right? I have good work for you.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>10</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000e768d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000d6c56</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>I believe you know what needs to be done. Something about putting out a fire?</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x60</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>50</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>100</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9aa08</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+      </INFO>
+      <INFO flags="0x00000000" id="000d6c57" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000e768d</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Looks like you had no trouble.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>100</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>5</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0x00000007</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000267d8" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000d6c57</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Get moving. I'll see if I can't delay any patrols out there.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>125</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="01000802" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000267d8</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="2" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Ah, you're back.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>100</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>5</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0x00000007</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="00061e61" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaOfferTopic</EDID>
+      <FULL>Okay, so what's your offer?</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>000620e7</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x00061e61" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="00025f63" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="TIF__00025F63" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="TIF__00025F63">
+            <fragment unknown="0x01" scriptName="TIF__00025F63" fragmentName="Fragment_1" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TCLT>00061d8e</TCLT>
+        <TCLT>00025f53</TCLT>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>With the war, many more ships come through these docks. Loaded with weapons and pay, but few people. And they pass through dangerous waters.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>We have an interest in one of those boats, the Icerunner.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="3" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>The Solitude Lighthouse will be guiding it in... but if its fire were to go out, the Icerunner would run aground.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>50</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0007eacf" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaConfrontationGreetTopic</EDID>
+      <PNAM>50</PNAM>
+      <BNAM>0007eb06</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x0007eacf" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0007eae5" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0004" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TCLT>00088ca6</TCLT>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>First you murder my sister, then you massacre my men!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>225</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000007d</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="000d6c4e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
+      <EDID>MS07AfterLamp3Topic</EDID>
+      <FULL>You're with the Blackblood Marauders?</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>000d6c61</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x000d6c4e" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000d6c5a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Deeja and I are more like their representatives here in Solitude. None of the Blackbloods can show themselves without being arrested.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9a968</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>125</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>5</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0x00000007</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="000d6c4f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0003">
+      <EDID>MS07AfterLamp2Topic</EDID>
+      <FULL>Why didn't your men put out the fire?</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>000d6c60</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x000d6c4f" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000d6c5b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="7" emotionValue="20" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>The Blackblood Marauders are... very identifiable. I didn't want anyone thinking the Blackbloods were getting too bold.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9a948</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>125</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="000d6c50" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="7" subtypeID="94" unused="0x00" />
+      </DATA>
+      <SNAM>1162626121</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x000d6c50" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000d6c5d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0002" resetTime="2730" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>I've got a little work if you're interested, traveler.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>8</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000d6c5e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0002" resetTime="2730" />
+        </ENAM>
+        <PNAM>000d6c5d</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>You should see me when you get bored, stranger.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>8</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="000e727f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0001">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="7" subtypeID="78" unused="0x00" />
+      </DATA>
+      <SNAM>1163477575</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x000e727f" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000e776a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0003">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000e7769</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>It would be best if we spoke little until you've completed your task.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>50</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000804" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaShowJournalTopic</EDID>
+      <FULL>So you were looking for a "scapegoat", were you? (Show journal)</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>01000803</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000804" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000805" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__JRShowJournal" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__JRShowJournal">
+            <fragment unknown="0x01" scriptName="STI_TIF__JRShowJournal" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="6" emotionValue="20" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Hmm... I can't believe I got caught. What do you want?</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9a8e0</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>55</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>47</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x000babb4</param1>
+          <param2>0x00000000</param2>
+          <runOnType>1</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000808" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaWantInTopic</EDID>
+      <FULL>I want to be your partner, not your scapegoat. (Persuade)</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>01000806</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x01000808" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000809" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__JRWantIn" status="0" />
+          <fragments unknown="0x02" flags="0x01" filename="STI_TIF__JRWantIn">
+            <fragment unknown="0x01" scriptName="STI_TIF__JRWantIn" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <TPIC>08080001</TPIC>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <DNAM>000e0cbc</DNAM>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9a938</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x65</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueForm>000d16a5</comparisonValueForm>
+          <functionIndex>14</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000011</param1>
+          <param2>0x00000000</param2>
+          <runOnType>1</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>182</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x000f759c</param1>
+          <param2>0x00000000</param2>
+          <runOnType>2</runOnType>
+          <reference>00000014</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="0100080a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <TPIC>08080001</TPIC>
+        <PNAM>01000809</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="2" emotionValue="20" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Are you kidding me? Go away.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9a8a8</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0100080d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaGiveUpTopic</EDID>
+      <FULL>Give it up, or I'll report you to the guards.</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>0100080c</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x0100080d" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000807" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__JRGiveUp" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__JRGiveUp">
+            <fragment unknown="0x01" scriptName="STI_TIF__JRGiveUp" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <TPIC>0d080001</TPIC>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="4" emotionValue="20" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Well... all right.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>If you'll excuse me, I have other things to attend to.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x83b9a870</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0100080f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07AldisInitialReportTopic</EDID>
+      <FULL>Jaree-Ra is up to something. He wants me to help set up a shipwreck.</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>0100080e</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x0100080f" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000810" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TCLT>01000811</TCLT>
+        <TCLT>01000813</TCLT>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>That's quite an accusation. I assume you have proof?</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000025</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000027</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>55</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000000a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000811" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07AldisCantProve</EDID>
+      <FULL>No, I can't prove it.</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>0100080e</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000811" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000812" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__AldisNeedProof" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__AldisNeedProof">
+            <fragment unknown="0x01" scriptName="STI_TIF__AldisNeedProof" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Well, come back when you have some more evidence.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000025</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000027</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>47</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x000babb4</param1>
+          <param2>0x00000000</param2>
+          <runOnType>1</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000813" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07AldisCanProve</EDID>
+      <FULL>Actually, yes, I found this journal in a bandit hideout. (Show journal)</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>0100080e</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000813" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000814" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__AldisHaveProof" status="0">
+            <property name="PlayerRef" type="1" status="1">
+              <object formID="00000014" alias="65535" unused="0x0000" />
+            </property>
+            <property name="MS07HargarsJournal" type="1" status="1">
+              <object formID="00023a64" alias="36" unused="0x0000" />
+            </property>
+            <property name="ArrestScene" type="1" status="1">
+              <object formID="01000818" alias="65535" unused="0x0000" />
+            </property>
+            <property name="MS07Guard" type="1" status="1">
+              <object formID="00023a64" alias="37" unused="0x0000" />
+            </property>
+          </script>
+          <fragments unknown="0x02" flags="0x03" filename="STI_TIF__AldisHaveProof">
+            <fragment unknown="0x01" scriptName="STI_TIF__AldisHaveProof" fragmentName="Fragment_0" />
+            <fragment unknown="0x01" scriptName="STI_TIF__AldisHaveProof" fragmentName="Fragment_1" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="7" emotionValue="20" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Very good... Let's see what you have here.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <SNAM>000b5e1f</SNAM>
+        <TRDT>
+          <struct emotionType="7" emotionValue="20" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Hmm. Works for me. Let's go.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <SNAM>000bb052</SNAM>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000025</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000027</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>47</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x000babb4</param1>
+          <param2>0x00000000</param2>
+          <runOnType>1</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000816" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07AldisReportProofTopic</EDID>
+      <FULL>Jaree-Ra is conspiring with the Blackblood Marauders. (Show journal)</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>01000815</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000816" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000817" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__AldisReportProof" status="0">
+            <property name="PlayerRef" type="1" status="1">
+              <object formID="00000014" alias="65535" unused="0x0000" />
+            </property>
+            <property name="MS07HargarsJournal" type="1" status="1">
+              <object formID="00023a64" alias="36" unused="0x0000" />
+            </property>
+            <property name="ArrestScene" type="1" status="1">
+              <object formID="01000818" alias="65535" unused="0x0000" />
+            </property>
+            <property name="MS07Guard" type="1" status="1">
+              <object formID="00023a64" alias="37" unused="0x0000" />
+            </property>
+          </script>
+          <fragments unknown="0x02" flags="0x03" filename="STI_TIF__AldisReportProof">
+            <fragment unknown="0x01" scriptName="STI_TIF__AldisReportProof" fragmentName="Fragment_0" />
+            <fragment unknown="0x01" scriptName="STI_TIF__AldisReportProof" fragmentName="Fragment_1" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="7" emotionValue="20" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>All right. Let's take a look...</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <SNAM>000b5e1f</SNAM>
+        <TRDT>
+          <struct emotionType="7" emotionValue="20" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Hmm. Works for me. Let's go.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <SNAM>000bb052</SNAM>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000025</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000027</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>55</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>47</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x000babb4</param1>
+          <param2>0x00000000</param2>
+          <runOnType>1</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0100081b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x0100081b" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0100081a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>You have committed crimes against Skyrim and her people. What say you in your defense?</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000025</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0100081d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x0100081d" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0100081c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="6" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>What? What crime's been committed?</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0100081f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x0100081f" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0100081e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="2" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Don't play stupid. I'm placing you under arrest.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000025</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000821" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000821" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000820" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="3" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Hssss. This can't be happening.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000823" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000823" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000822" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="2" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>We can do this one of two ways. You can walk up with me to the keep, or I can drag your lifeless body. Your choice.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>566</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000025</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="01000825" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000825" groupType="7" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000824" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="3" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>All right, all right. No need to get rough.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+  </GRUP>
+  <GRUP label="QUST" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <QUST flags="0x00000000" id="00023a64" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07</EDID>
+      <VMAD version="5" format="2">
+        <script name="QF_MS07_00023A64" status="0">
+          <property name="IcerunnerQST" type="1" status="1">
+            <object formID="000906d4" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07JareeRaCampBrokenOarMarker" type="1" status="1">
+            <object formID="00023a64" alias="26" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07GuardBackup" type="1" status="1">
+            <object formID="00023a64" alias="39" unused="0x0000" />
+          </property>
+          <property name="MS07OpeningScene" type="1" status="1">
+            <object formID="000c588d" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07HargarsJournal" type="1" status="1">
+            <object formID="00023a64" alias="36" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07SorexVinius" type="1" status="1">
+            <object formID="00023a64" alias="29" unused="0x0000" />
+          </property>
+          <property name="MS07BanditSiblings" type="1" status="1">
+            <object formID="00025f95" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07LighthouseFireOff" type="1" status="1">
+            <object formID="00023a64" alias="27" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07LighthouseFire" type="1" status="1">
+            <object formID="00023a64" alias="18" unused="0x0000" />
+          </property>
+          <property name="SolitudeDocksDistrictMarker" type="1" status="1">
+            <object formID="0001b433" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07JareeRaDocksMeetingMarker" type="1" status="1">
+            <object formID="00023a64" alias="24" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07BanditGreeter" type="1" status="1">
+            <object formID="00023a64" alias="28" unused="0x0000" />
+          </property>
+          <property name="MS07BanditLeaderMarker" type="1" status="1">
+            <object formID="00023a67" alias="65535" unused="0x0000" />
+          </property>
+          <property name="STI_MS07ArrestScene" type="1" status="1">
+            <object formID="01000818" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07JareeRa" type="1" status="1">
+            <object formID="00023a64" alias="1" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07BrokenOarGrottoMapMarker" type="1" status="1">
+            <object formID="00023a64" alias="34" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07LighthouseMapMarker" type="1" status="1">
+            <object formID="00023a64" alias="32" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07DeejaNote" type="1" status="1">
+            <object formID="00023a64" alias="19" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07SorexMarker" type="1" status="1">
+            <object formID="00023a64" alias="30" unused="0x0000" />
+          </property>
+          <property name="MS07Rumor" type="1" status="1">
+            <object formID="000aa9a9" alias="65535" unused="0x0000" />
+          </property>
+          <property name="AchievementsQuest" type="1" status="1">
+            <object formID="000fc85d" alias="65535" unused="0x0000" />
+          </property>
+          <property name="CrimeFactionHaafingar" type="1" status="1">
+            <object formID="00029db0" alias="65535" unused="0x0000" />
+          </property>
+          <property name="STIArrestKeyword" type="1" status="1">
+            <object formID="0100082e" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07Deeja" type="1" status="1">
+            <object formID="00023a64" alias="7" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07BrokenOarEntranceStageSetter" type="1" status="1">
+            <object formID="00023a64" alias="16" unused="0x0000" />
+          </property>
+          <property name="PlayerFaction" type="1" status="1">
+            <object formID="00000db1" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07Guard" type="1" status="1">
+            <object formID="00023a64" alias="37" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerLootEnabler" type="1" status="1">
+            <object formID="00023a64" alias="20" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerLoot" type="1" status="1">
+            <object formID="00023a64" alias="22" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07OpeningSceneTrigger" type="1" status="1">
+            <object formID="00023a64" alias="31" unused="0x0000" />
+          </property>
+          <property name="MS07BanditContact2WaitMarker" type="1" status="1">
+            <object formID="000267d9" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerChest" type="1" status="1">
+            <object formID="00023a64" alias="21" unused="0x0000" />
+          </property>
+          <property name="Alias_Player" type="1" status="1">
+            <object formID="00023a64" alias="35" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07DeejaIcerunnerMarker" type="1" status="1">
+            <object formID="00023a64" alias="25" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IceRunnerMapMarker" type="1" status="1">
+            <object formID="00023a64" alias="33" unused="0x0000" />
+          </property>
+        </script>
+        <script name="MS07Script" status="0" />
+        <fragments unknown="0x02" filename="QF_MS07_00023A64">
+          <fragment index="0" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_0" />
+          <fragment index="125" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_43" />
+          <fragment index="340" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_59" />
+          <fragment index="250" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_46" />
+          <fragment index="10" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_2" />
+          <fragment index="350" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_54" />
+          <fragment index="200" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_24" />
+          <fragment index="50" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_42" />
+          <fragment index="3" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_48" />
+          <fragment index="110" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_51" />
+          <fragment index="300" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_49" />
+          <fragment index="5" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_47" />
+          <fragment index="120" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_52" />
+          <fragment index="100" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_14" />
+          <fragment index="15" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_56" />
+          <fragment index="55" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_55" />
+          <fragment index="175" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_44" />
+          <fragment index="150" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_18" />
+          <fragment index="225" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_45" />
+          <fragment index="130" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_50" />
+          <fragment index="310" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_53" />
+          <alias unknown="0x001f0000" object="0x00023a64" version="5" objectFormat="2">
+            <script name="defaultsetstagealiasscript" status="0">
+              <property name="stage" type="3" status="1">5</property>
+              <property name="prereqStageOPT" type="3" status="1">3</property>
+              <property name="TriggerType" type="3" status="1">3</property>
+            </script>
+            <script name="CWDisableDuringSiegeALIASScript" status="0">
+              <property name="CW" type="1" status="1">
+                <object formID="00019e53" alias="65535" unused="0x0000" />
+              </property>
+            </script>
+          </alias>
+          <alias unknown="0x00010000" object="0x00023a64" version="5" objectFormat="2">
+            <script name="STI_MS07JareeRaScript" status="0" />
+          </alias>
+          <alias unknown="0x00120000" object="0x00023a64" version="5" objectFormat="2">
+            <script name="defaultsetstagealiasscript" status="0">
+              <property name="stage" type="3" status="1">100</property>
+              <property name="prereqStageOPT" type="3" status="1">50</property>
+              <property name="TriggerType" type="3" status="1">0</property>
+            </script>
+          </alias>
+          <alias unknown="0x00070000" object="0x00023a64" version="5" objectFormat="2">
+            <script name="STI_MS07DeejaScript" status="0">
+              <property name="PlayerRef" type="1" status="1">
+                <object formID="00000014" alias="65535" unused="0x0000" />
+              </property>
+            </script>
+          </alias>
+          <alias unknown="0x00130000" object="0x00023a64" version="5" objectFormat="2">
+            <script name="defaultsetstagealiasscript" status="0">
+              <property name="stage" type="3" status="1">200</property>
+              <property name="prereqStageOPT" type="3" status="1">175</property>
+              <property name="TriggerType" type="3" status="1">4</property>
+            </script>
+          </alias>
+          <alias unknown="0x00100000" object="0x00023a64" version="5" objectFormat="2">
+            <script name="STI_MS07BrokenOarEntranceScript" status="0">
+              <property name="PlayerRef" type="1" status="1">
+                <object formID="00000014" alias="65535" unused="0x0000" />
+              </property>
+              <property name="MS07JareeRa" type="1" status="1">
+                <object formID="00023a64" alias="1" unused="0x0000" />
+              </property>
+            </script>
+          </alias>
+          <alias unknown="0x00240000" object="0x00023a64" version="5" objectFormat="2">
+            <script name="defaultsetstageonclosebook" status="0">
+              <property name="preReqStage" type="3" status="1">15</property>
+              <property name="StageToSet" type="3" status="1">55</property>
+            </script>
+          </alias>
+        </fragments>
+      </VMAD>
+      <FULL>Lights Out!</FULL>
+      <DNAM>
+        <struct flags="0x0111" priority="60" unknown0="0x41" unknown1="0x00000000" type="8" />
+      </DNAM>
+      <FLTR>Misc\Solitude\</FLTR>
+      <NEXT />
+      <INDX>
+        <struct index="0" flags="0x00" unknown="206" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="3" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="5" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="8" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="10" flags="0x00" unknown="32" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>Jaree-Ra on the Solitude docks has an offer for me.</CNAM>
+      <INDX>
+        <struct index="15" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>Jaree-Ra on the Solitude docks has an offer for me. It seemed suspicious, so I reported him to Captain Aldis. However, I need to find evidence before action can be taken.</CNAM>
+      <INDX>
+        <struct index="50" flags="0x00" unknown="171" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>Jaree-Ra has asked me to put out the Solitude Lighthouse fire.</CNAM>
+      <INDX>
+        <struct index="55" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>I found out that Jaree-Ra was conspiring with bandits and trying to take advantage of me. I should either confront him or report this to the guards.</CNAM>
+      <INDX>
+        <struct index="100" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>I've put out the Solitude Lighthouse fire. I must return to Jaree-Ra and find out if a ship has crashed.</CNAM>
+      <INDX>
+        <struct index="110" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>Jaree-Ra found out that I killed his sister Deeja and turned on me. I must defeat Jaree-Ra.</CNAM>
+      <INDX>
+        <struct index="120" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>When I went to meet Jaree-Ra at the docks, he turned on me. I must defeat Jaree-Ra.</CNAM>
+      <INDX>
+        <struct index="125" flags="0x00" unknown="171" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>I've put out the Solitude Lighthouse fire and the Icerunner has failed to dock. I am to head up Solitude's eastern shoreline to find where it's run aground and meet Deeja.</CNAM>
+      <INDX>
+        <struct index="130" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>I've put out the Solitude Lighthouse fire and the Icerunner has failed to dock. I defeated Jaree-Ra, now I should head up Solitude's eastern shoreline to find where it's run aground.</CNAM>
+      <INDX>
+        <struct index="150" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>I've put out the Solitude Lighthouse fire and the Icerunner has run aground. When I went to meet Deeja at the wreck things went horribly wrong. I must defeat Deeja to retrieve my share of the loot.</CNAM>
+      <INDX>
+        <struct index="175" flags="0x00" unknown="171" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>Jaree-Ra has betrayed me and taken the loot from the Icerunner. I've defeated his sister Deeja, now I must track down Jaree-Ra.</CNAM>
+      <INDX>
+        <struct index="200" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="225" flags="0x00" unknown="171" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>Jaree-Ra has betrayed me and taken the loot from the Icerunner to Camp Broken Oar. I must defeat Jaree-Ra.</CNAM>
+      <INDX>
+        <struct index="250" flags="0x00" unknown="171" />
+      </INDX>
+      <QSDT>1</QSDT>
+      <CNAM>I have defeated Jaree-Ra and his bandits.</CNAM>
+      <INDX>
+        <struct index="300" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>2</QSDT>
+      <CNAM>Jaree-Ra is dead. The Icerunner should be able to dock safely.</CNAM>
+      <INDX>
+        <struct index="310" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>1</QSDT>
+      <CNAM>I uncovered Jaree-Ra's plans to conspire with the Blackblood Marauders and persuaded him to give up.</CNAM>
+      <INDX>
+        <struct index="340" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <CNAM>I uncovered Jaree-Ra's plans to conspire with the Blackblood Marauders and he will be arrested.</CNAM>
+      <INDX>
+        <struct index="350" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>1</QSDT>
+      <CNAM>I uncovered Jaree-Ra's plans to conspire with the Blackblood Marauders and he has been arrested.</CNAM>
+      <QOBJ>10</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Accept Jaree-Ra's offer in Solitude</NNAM>
+      <QSTA>
+        <struct alias="1" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>12</QOBJ>
+      <FNAM>1</FNAM>
+      <NNAM>Report Jaree-Ra to the guard captain</NNAM>
+      <QSTA>
+        <struct alias="37" flags="0x00000000" />
+      </QSTA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>0</comparisonValueFloat>
+        <functionIndex>35</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00000000</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <QSTA>
+        <struct alias="39" flags="0x00000000" />
+      </QSTA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>0</comparisonValueFloat>
+        <functionIndex>35</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00000000</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <QOBJ>15</QOBJ>
+      <FNAM>1</FNAM>
+      <NNAM>Find evidence of Jaree-Ra's criminal activity</NNAM>
+      <QSTA>
+        <struct alias="36" flags="0x00000000" />
+      </QSTA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>-1</comparisonValueFloat>
+        <functionIndex>80</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00000000</param1>
+        <param2>0x00000000</param2>
+        <runOnType>2</runOnType>
+        <reference>00000014</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <QOBJ>50</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Put out the fire in the Solitude Lighthouse</NNAM>
+      <QSTA>
+        <struct alias="18" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>55</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Confront Jaree-Ra</NNAM>
+      <QSTA>
+        <struct alias="1" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>60</QOBJ>
+      <FNAM>1</FNAM>
+      <NNAM>Report Jaree-Ra to the guard captain</NNAM>
+      <QSTA>
+        <struct alias="37" flags="0x00000000" />
+      </QSTA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>0</comparisonValueFloat>
+        <functionIndex>35</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00000000</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <QSTA>
+        <struct alias="39" flags="0x00000000" />
+      </QSTA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>0</comparisonValueFloat>
+        <functionIndex>35</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00000000</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <QOBJ>100</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Return to Jaree-Ra</NNAM>
+      <QSTA>
+        <struct alias="1" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>125</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Find Deeja at the Wreck of the Icerunner</NNAM>
+      <QSTA>
+        <struct alias="7" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>130</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Travel to the Wreck of the Icerunner</NNAM>
+      <QSTA>
+        <struct alias="33" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>150</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Defeat Deeja</NNAM>
+      <QSTA>
+        <struct alias="7" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>175</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Find out where Jaree-Ra's bandits took the loot</NNAM>
+      <QSTA>
+        <struct alias="19" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>200</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Travel to Broken Oar Grotto</NNAM>
+      <QSTA>
+        <struct alias="16" flags="0x00000000" />
+      </QSTA>
+      <QOBJ>225</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Defeat Jaree-Ra</NNAM>
+      <QSTA>
+        <struct alias="1" flags="0x00000000" />
+      </QSTA>
+      <ANAM>40</ANAM>
+      <ALST>35</ALST>
+      <ALID>Player</ALID>
+      <FNAM>256</FNAM>
+      <ALFR>00000014</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>31</ALST>
+      <ALID>MS07OpeningSceneTrigger</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000c588c</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>29</ALST>
+      <ALID>MS07SorexVinius</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000198a3</ALFR>
+      <ALPC>000c588f</ALPC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>1</ALST>
+      <ALID>MS07JareeRa</ALID>
+      <FNAM>513</FNAM>
+      <ALUA>0001328d</ALUA>
+      <ALPC>00088cc0</ALPC>
+      <ALPC>0007eb07</ALPC>
+      <ALPC>000c5890</ALPC>
+      <ALPC>0005de1d</ALPC>
+      <ALPC>00025f7b</ALPC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>18</ALST>
+      <ALID>MS07LighthouseFire</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>0007526c</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>27</ALST>
+      <ALID>MS07LighthouseFireOff</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>00062832</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>24</ALST>
+      <ALID>MS07JareeRaDocksMeetingMarker</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>00062831</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>7</ALST>
+      <ALID>MS07Deeja</ALID>
+      <FNAM>517</FNAM>
+      <ALUA>00013268</ALUA>
+      <ALPC>00088c84</ALPC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>19</ALST>
+      <ALID>MS07DeejaNote</ALID>
+      <FNAM>49284</FNAM>
+      <ALCO>000f23e0</ALCO>
+      <ALCA>7</ALCA>
+      <ALCL>0</ALCL>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>25</ALST>
+      <ALID>MS07DeejaIcerunnerMarker</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000267d9</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>16</ALST>
+      <ALID>MS07BrokenOarEntranceStageSetter</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>00015d79</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>26</ALST>
+      <ALID>MS07JareeRaCampBrokenOarMarker</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>00023a67</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>20</ALST>
+      <ALID>MS07IcerunnerLootEnabler</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000babbc</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>21</ALST>
+      <ALID>MS07IcerunnerChest</ALID>
+      <FNAM>16384</FNAM>
+      <ALFR>000babb7</ALFR>
+      <ALDN>0006282f</ALDN>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>22</ALST>
+      <ALID>MS07IcerunnerLoot</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000babbb</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>28</ALST>
+      <ALID>MS07BanditGreeter</ALID>
+      <FNAM>643</FNAM>
+      <ALFR>0008e750</ALFR>
+      <ALPC>00088ca5</ALPC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>30</ALST>
+      <ALID>MS07SorexMarker</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000c588b</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>32</ALST>
+      <ALID>MS07LighthouseMapMarker</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000c016d</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>33</ALST>
+      <ALID>MS07IceRunnerMapMarker</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000162aa</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>34</ALST>
+      <ALID>MS07BrokenOarGrottoMapMarker</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000b77c3</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>36</ALST>
+      <ALID>MS07HargarsJournal</ALID>
+      <FNAM>0</FNAM>
+      <ALFR>000babb5</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>37</ALST>
+      <ALID>MS07Guard</ALID>
+      <FNAM>130</FNAM>
+      <ALUA>00041fb8</ALUA>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>39</ALST>
+      <ALID>MS07GuardBackup</ALID>
+      <FNAM>130</FNAM>
+      <ALFR>00077de3</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+    </QUST>
+    <QUST flags="0x00000000" id="000906d4" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07_dunIcerunnerQST</EDID>
+      <VMAD version="5" format="2">
+        <script name="QF_dunIcerunnerQST_000906D4" status="0">
+          <property name="Alias_Bandit03" type="1" status="1">
+            <object formID="000906d4" alias="9" unused="0x0000" />
+          </property>
+          <property name="Alias_AmbushBanditEnableMarker" type="1" status="1">
+            <object formID="000906d4" alias="18" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit05" type="1" status="1">
+            <object formID="000906d4" alias="7" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit01" type="1" status="1">
+            <object formID="000906d4" alias="19" unused="0x0000" />
+          </property>
+          <property name="PlayerFaction" type="1" status="1">
+            <object formID="00000db1" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_AmbushBanditDisableMarker" type="1" status="1">
+            <object formID="000906d4" alias="23" unused="0x0000" />
+          </property>
+          <property name="BanditFaction" type="1" status="1">
+            <object formID="0008e764" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit11" type="1" status="1">
+            <object formID="000906d4" alias="1" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit10" type="1" status="1">
+            <object formID="000906d4" alias="2" unused="0x0000" />
+          </property>
+          <property name="Alias_RowboatEnableMarker" type="1" status="1">
+            <object formID="000906d4" alias="16" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit02" type="1" status="1">
+            <object formID="000906d4" alias="10" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit08" type="1" status="1">
+            <object formID="000906d4" alias="4" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit09" type="1" status="1">
+            <object formID="000906d4" alias="3" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit07" type="1" status="1">
+            <object formID="000906d4" alias="21" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit13" type="1" status="1">
+            <object formID="000906d4" alias="12" unused="0x0000" />
+          </property>
+          <property name="Alias_IcerunnerEnableMarker" type="1" status="1">
+            <object formID="000906d4" alias="13" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit04" type="1" status="1">
+            <object formID="000906d4" alias="20" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit12" type="1" status="1">
+            <object formID="000906d4" alias="22" unused="0x0000" />
+          </property>
+        </script>
+        <fragments unknown="0x02" filename="QF_dunIcerunnerQST_000906D4">
+          <fragment index="20" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_3" />
+          <fragment index="255" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_7" />
+          <fragment index="10" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_0" />
+          <fragment index="15" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_6" />
+          <fragment index="30" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_5" />
+          <alias unknown="0x00130000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x000a0000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00090000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00140000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00070000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00150000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00040000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00030000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00020000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00010000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x00160000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+          <alias unknown="0x000c0000" object="0x000906d4" version="5" objectFormat="2">
+            <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="myQST" type="1" status="1">
+                <object formID="00023a64" alias="65535" unused="0x0000" />
+              </property>
+              <property name="playerOnly" type="5" status="1">1</property>
+              <property name="StageToSet" type="3" status="1">150</property>
+            </script>
+          </alias>
+        </fragments>
+      </VMAD>
+      <FULL>Icerunner</FULL>
+      <DNAM>
+        <struct flags="0x0100" priority="30" unknown0="0x41" unknown1="0x00000000" type="6" />
+      </DNAM>
+      <NEXT />
+      <INDX>
+        <struct index="10" flags="0x00" unknown="4" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="15" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="20" flags="0x00" unknown="4" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="30" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="255" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <ANAM>24</ANAM>
+      <ALST>19</ALST>
+      <ALID>Bandit01</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>00088f25</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>10</ALST>
+      <ALID>Bandit02</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>00090649</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>9</ALST>
+      <ALID>Bandit03</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>0009064a</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>20</ALST>
+      <ALID>Bandit04</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>00088f2d</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>7</ALST>
+      <ALID>Bandit05</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>0009064b</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>21</ALST>
+      <ALID>Bandit07</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>00088f4f</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>4</ALST>
+      <ALID>Bandit08</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>00090650</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>3</ALST>
+      <ALID>Bandit09</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>0008e74f</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>2</ALST>
+      <ALID>Bandit10</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>0008e74e</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>1</ALST>
+      <ALID>Bandit11</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>0008e74c</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>22</ALST>
+      <ALID>Bandit12</ALID>
+      <FNAM>146</FNAM>
+      <ALFR>0008e74e</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>12</ALST>
+      <ALID>Bandit13</ALID>
+      <FNAM>658</FNAM>
+      <ALFR>0008e750</ALFR>
+      <ALFC>0008e764</ALFC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>13</ALST>
+      <ALID>IcerunnerEnableMarker</ALID>
+      <FNAM>128</FNAM>
+      <ALFR>0004b55d</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>16</ALST>
+      <ALID>RowboatEnableMarker</ALID>
+      <FNAM>128</FNAM>
+      <ALFR>00088eb1</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>18</ALST>
+      <ALID>AmbushBanditEnableMarker</ALID>
+      <FNAM>128</FNAM>
+      <ALFR>00088f24</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>23</ALST>
+      <ALID>AmbushBanditDisableMarker</ALID>
+      <FNAM>128</FNAM>
+      <ALFR>0010824c</ALFR>
+      <VTCK>00000000</VTCK>
+      <ALED />
+    </QUST>
+    <QUST flags="0x00000000" id="000aa9a9" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0007">
+      <EDID>MS07Rumor</EDID>
+      <VMAD version="5" format="2">
+        <script name="QF_MS07Start_000AA9A9" status="0">
+          <property name="Alias_MS07StartJareeRa" type="1" status="1">
+            <object formID="000aa9a9" alias="0" unused="0x0000" />
+          </property>
+        </script>
+        <fragments unknown="0x02" filename="QF_MS07Start_000AA9A9">
+          <fragment index="20" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07Start_000AA9A9" fragmentName="Fragment_1" />
+          <fragment index="10" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07Start_000AA9A9" fragmentName="Fragment_0" />
+          <alias unknown="0x00000000" object="0x000aa9a9" version="5" objectFormat="2">
+            <script name="STI_MS07RumorJareeRaScript" status="0">
+              <property name="MS07Rumor" type="1" status="1">
+                <object formID="000aa9a9" alias="65535" unused="0x0000" />
+              </property>
+            </script>
+          </alias>
+        </fragments>
+      </VMAD>
+      <DNAM>
+        <struct flags="0x0011" priority="60" unknown0="0x41" unknown1="0x00000000" type="6" />
+      </DNAM>
+      <NEXT />
+      <INDX>
+        <struct index="0" flags="0x00" unknown="0" />
+      </INDX>
+      <INDX>
+        <struct index="10" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="20" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <QOBJ>10</QOBJ>
+      <FNAM>0</FNAM>
+      <NNAM>Talk to Jaree-Ra about possible employment</NNAM>
+      <QSTA>
+        <struct alias="0" flags="0x00000000" />
+      </QSTA>
+      <ANAM>1</ANAM>
+      <ALST>0</ALST>
+      <ALID>MS07StartJareeRa</ALID>
+      <FNAM>0</FNAM>
+      <ALUA>0001328d</ALUA>
+      <VTCK>00000000</VTCK>
+      <ALED />
+    </QUST>
+    <QUST flags="0x00000000" id="0100082c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaJailQuest</EDID>
+      <VMAD version="5" format="2">
+        <script name="STI_QF_STIJareeRaJailQuest" status="0">
+          <property name="Alias_Guard" type="1" status="1">
+            <object formID="0100082c" alias="1" unused="0x0000" />
+          </property>
+          <property name="JailMarker" type="1" status="1">
+            <object formID="0100082a" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_JareeRa" type="1" status="1">
+            <object formID="0100082c" alias="0" unused="0x0000" />
+          </property>
+        </script>
+        <fragments unknown="0x02" filename="STI_QF_STIJareeRaJailQuest">
+          <fragment index="20" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="STI_QF_STIJareeRaJailQuest" fragmentName="Fragment_2" />
+          <fragment index="10" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="STI_QF_STIJareeRaJailQuest" fragmentName="Fragment_3" />
+        </fragments>
+      </VMAD>
+      <FULL>Jaree-Ra Jail Quest</FULL>
+      <DNAM>
+        <struct flags="0x0500" priority="70" unknown0="0xff" unknown1="0x00000000" type="8" />
+      </DNAM>
+      <ENAM>SCPT</ENAM>
+      <FLTR>Misc\Solitude\</FLTR>
+      <NEXT />
+      <INDX>
+        <struct index="10" flags="0x02" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <INDX>
+        <struct index="20" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>0</QSDT>
+      <ANAM>3</ANAM>
+      <ALST>0</ALST>
+      <ALID>JareeRa</ALID>
+      <FNAM>512</FNAM>
+      <ALUA>0001328d</ALUA>
+      <ALPC>0100082b</ALPC>
+      <VTCK>00000000</VTCK>
+      <ALED />
+      <ALST>1</ALST>
+      <ALID>Guard</ALID>
+      <FNAM>0</FNAM>
+      <ALUA>00041fb8</ALUA>
+      <VTCK>00000000</VTCK>
+      <ALED />
+    </QUST>
+  </GRUP>
+  <GRUP label="PACK" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <PACK flags="0x00000000" id="0005de1d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07QueststartJRMeetPlayer</EDID>
+      <PKDT>
+        <struct miscFlags="0x00000000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x08" interruptFlags="0x0000fefd" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <CTDA>
+        <operator>0x81</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>10</comparisonValueFloat>
+        <functionIndex>58</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00023a64</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>55</comparisonValueFloat>
+        <functionIndex>58</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00023a64</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>1</comparisonValueFloat>
+        <functionIndex>543</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x000b2fd9</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <PKCU>
+        <struct unknown0="0x0000000c" packageTemplate="0001c254" unknown1="0x0000000a" />
+      </PKCU>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="0" location="0x000251a3" radius="512" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Float</ANAM>
+      <CNAM>00004842</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>14</UNAM>
+      <UNAM>1</UNAM>
+      <UNAM>3</UNAM>
+      <UNAM>4</UNAM>
+      <UNAM>5</UNAM>
+      <UNAM>6</UNAM>
+      <UNAM>31</UNAM>
+      <UNAM>7</UNAM>
+      <UNAM>25</UNAM>
+      <UNAM>27</UNAM>
+      <UNAM>29</UNAM>
+      <XNAM>32</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+    <PACK flags="0x00000000" id="0100080b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaStayPutForSolitudeOpening</EDID>
+      <PKDT>
+        <struct miscFlags="0x00000000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x2c" interruptFlags="0x0000feff" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>0</comparisonValueFloat>
+        <functionIndex>543</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x000b2fd9</param1>
+        <param2>0x00000000</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <PKCU>
+        <struct unknown0="0x0000000c" packageTemplate="0001c254" unknown1="0x0000000a" />
+      </PKCU>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="1" location="0x00016a0e" radius="0" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Float</ANAM>
+      <CNAM>00004842</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>14</UNAM>
+      <UNAM>1</UNAM>
+      <UNAM>3</UNAM>
+      <UNAM>4</UNAM>
+      <UNAM>5</UNAM>
+      <UNAM>6</UNAM>
+      <UNAM>31</UNAM>
+      <UNAM>7</UNAM>
+      <UNAM>25</UNAM>
+      <UNAM>27</UNAM>
+      <UNAM>29</UNAM>
+      <XNAM>32</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+    <PACK flags="0x00000000" id="01000819" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STI_MS07AldisArrestJareeRa</EDID>
+      <PKDT>
+        <struct miscFlags="0x00002000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x0000fc60" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <QNAM>00023a64</QNAM>
+      <PKCU>
+        <struct unknown0="0x00000003" packageTemplate="00016faa" unknown1="0x00000003" />
+      </PKCU>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="8" location="0x00000001" radius="256" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>2</UNAM>
+      <UNAM>4</UNAM>
+      <XNAM>5</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+    <PACK flags="0x00000000" id="01000826" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STI_MS07JareeRaStayPutForArrestScene</EDID>
+      <PKDT>
+        <struct miscFlags="0x00000000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x00000000" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <QNAM>00023a64</QNAM>
+      <PKCU>
+        <struct unknown0="0x00000003" packageTemplate="00016faa" unknown1="0x00000003" />
+      </PKCU>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="0" location="0x000251a3" radius="0" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>2</UNAM>
+      <UNAM>4</UNAM>
+      <XNAM>5</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+    <PACK flags="0x00000000" id="01000827" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STI_MS07AldisArrestJareeRaHostile</EDID>
+      <PKDT>
+        <struct miscFlags="0x00800000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x0000feff" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <QNAM>00023a64</QNAM>
+      <PKCU>
+        <struct unknown0="0x00000003" packageTemplate="00016faa" unknown1="0x00000003" />
+      </PKCU>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="8" location="0x00000001" radius="300" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>2</UNAM>
+      <UNAM>4</UNAM>
+      <XNAM>5</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+    <PACK flags="0x00000000" id="01000828" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STI_MS07AldisFollowJareeRaToKeep</EDID>
+      <PKDT>
+        <struct miscFlags="0x00800000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x0000feff" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <QNAM>00023a64</QNAM>
+      <PKCU>
+        <struct unknown0="0x00000006" packageTemplate="00019b2c" unknown1="0x00000004" />
+      </PKCU>
+      <ANAM>SingleRef</ANAM>
+      <PTDA>
+        <struct type="4" target="00000001" count="0" />
+      </PTDA>
+      <ANAM>Float</ANAM>
+      <CNAM>00000043</CNAM>
+      <ANAM>Float</ANAM>
+      <CNAM>00008043</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>1</UNAM>
+      <UNAM>2</UNAM>
+      <UNAM>4</UNAM>
+      <UNAM>6</UNAM>
+      <UNAM>8</UNAM>
+      <XNAM>9</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+    <PACK flags="0x00000000" id="01000829" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STI_MS07JareeRaKeepMarch</EDID>
+      <PKDT>
+        <struct miscFlags="0x00000000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x0000feff" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <QNAM>00023a64</QNAM>
+      <PKCU>
+        <struct unknown0="0x00000003" packageTemplate="00016faa" unknown1="0x00000003" />
+      </PKCU>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="0" location="0x0003ef19" radius="0" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>2</UNAM>
+      <UNAM>4</UNAM>
+      <XNAM>5</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+    <PACK flags="0x00000000" id="0100082b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaInPrison</EDID>
+      <PKDT>
+        <struct miscFlags="0x00000000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x0000fcf5" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <PKCU>
+        <struct unknown0="0x00000003" packageTemplate="00016faa" unknown1="0x00000003" />
+      </PKCU>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="0" location="0x0100082a" radius="0" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>2</UNAM>
+      <UNAM>4</UNAM>
+      <XNAM>3</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
+  </GRUP>
+  <GRUP label="SMQN" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <SMQN flags="0x00000000" id="0100082f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIArrestNode</EDID>
+      <PNAM>0001379a</PNAM>
+      <SNAM>00017045</SNAM>
+      <CITC>1</CITC>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>1</comparisonValueFloat>
+        <functionIndex>576</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x314b0000</param1>
+        <param2>0x0100082e</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <DNAM>2</DNAM>
+      <XNAM>0</XNAM>
+      <QNAM>1</QNAM>
+      <NNAM>0100082c</NNAM>
+    </SMQN>
+  </GRUP>
+  <GRUP label="DLBR" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <DLBR flags="0x00000000" id="00025f76" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JRWhatIf</EDID>
+      <QNAM>00023a64</QNAM>
+      <TNAM>0</TNAM>
+      <DNAM>0</DNAM>
+      <SNAM>00025f53</SNAM>
+    </DLBR>
+    <DLBR flags="0x00000000" id="01000803" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaShowJournal</EDID>
+      <QNAM>00023a64</QNAM>
+      <TNAM>0</TNAM>
+      <DNAM>1</DNAM>
+      <SNAM>01000804</SNAM>
+    </DLBR>
+    <DLBR flags="0x00000000" id="01000806" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaWantIn</EDID>
+      <QNAM>00023a64</QNAM>
+      <TNAM>0</TNAM>
+      <DNAM>0</DNAM>
+      <SNAM>01000808</SNAM>
+    </DLBR>
+    <DLBR flags="0x00000000" id="0100080c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaGiveUp</EDID>
+      <QNAM>00023a64</QNAM>
+      <TNAM>0</TNAM>
+      <DNAM>1</DNAM>
+      <SNAM>0100080d</SNAM>
+    </DLBR>
+    <DLBR flags="0x00000000" id="0100080e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07AldisInitialReport</EDID>
+      <QNAM>00023a64</QNAM>
+      <TNAM>0</TNAM>
+      <DNAM>1</DNAM>
+      <SNAM>0100080f</SNAM>
+    </DLBR>
+    <DLBR flags="0x00000000" id="01000815" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07AldisReportProof</EDID>
+      <QNAM>00023a64</QNAM>
+      <TNAM>0</TNAM>
+      <DNAM>1</DNAM>
+      <SNAM>01000816</SNAM>
+    </DLBR>
+  </GRUP>
+  <GRUP label="SCEN" groupType="0" day="137" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+    <SCEN flags="0x00000000" id="01000818" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07ArrestScene</EDID>
+      <VMAD version="5" format="2">
+        <script name="STI_SF_MS07ArrestScene" status="0">
+          <property name="MS07JareeRa" type="1" status="1">
+            <object formID="00023a64" alias="1" unused="0x0000" />
+          </property>
+          <property name="JareeRaMarker" type="1" status="1">
+            <object formID="000251a3" alias="65535" unused="0x0000" />
+          </property>
+        </script>
+        <fragments unknown="0x02" flags="0x03" filename="STI_SF_MS07ArrestScene">
+          <begin unknown="0x01" scriptName="STI_SF_MS07ArrestScene" fragmentName="Fragment_1" />
+          <end unknown="0x01" scriptName="STI_SF_MS07ArrestScene" fragmentName="Fragment_0" />
+        </fragments>
+      </VMAD>
+      <FNAM>0</FNAM>
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>1</comparisonValueFloat>
+        <functionIndex>32</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x00000014</param1>
+        <param2>0x00000000</param2>
+        <runOnType>5</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0x00000025</unknown1>
+      </CTDA>
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>1</comparisonValueFloat>
+        <functionIndex>550</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x01000818</param1>
+        <param2>0x00000001</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <ALID>37</ALID>
+      <LNAM>1</LNAM>
+      <DNAM>26</DNAM>
+      <ALID>1</ALID>
+      <LNAM>1</LNAM>
+      <DNAM>26</DNAM>
+      <ANAM>0100</ANAM>
+      <NAM0></NAM0>
+      <ALID>37</ALID>
+      <INAM>1</INAM>
+      <SNAM>0</SNAM>
+      <ENAM>0</ENAM>
+      <PNAM>01000819</PNAM>
+      <ANAM></ANAM>
+      <ANAM>0000</ANAM>
+      <NAM0></NAM0>
+      <ALID>37</ALID>
+      <INAM>2</INAM>
+      <FNAM>32768</FNAM>
+      <SNAM>1</SNAM>
+      <ENAM>1</ENAM>
+      <DATA>0100081b</DATA>
+      <HTID>1</HTID>
+      <DMAX>10</DMAX>
+      <DMIN>1</DMIN>
+      <DEMO>0</DEMO>
+      <DEVA>0</DEVA>
+      <ANAM></ANAM>
+      <ANAM>0000</ANAM>
+      <NAM0></NAM0>
+      <ALID>1</ALID>
+      <INAM>3</INAM>
+      <FNAM>32768</FNAM>
+      <SNAM>2</SNAM>
+      <ENAM>2</ENAM>
+      <DATA>0100081d</DATA>
+      <HTID>37</HTID>
+      <DMAX>10</DMAX>
+      <DMIN>1</DMIN>
+      <DEMO>6</DEMO>
+      <DEVA>0</DEVA>
+      <ANAM></ANAM>
+      <ANAM>0000</ANAM>
+      <NAM0></NAM0>
+      <ALID>37</ALID>
+      <INAM>4</INAM>
+      <FNAM>32768</FNAM>
+      <SNAM>3</SNAM>
+      <ENAM>3</ENAM>
+      <DATA>0100081f</DATA>
+      <HTID>1</HTID>
+      <DMAX>10</DMAX>
+      <DMIN>1</DMIN>
+      <DEMO>2</DEMO>
+      <DEVA>0</DEVA>
+      <ANAM></ANAM>
+      <ANAM>0000</ANAM>
+      <NAM0></NAM0>
+      <ALID>1</ALID>
+      <INAM>5</INAM>
+      <FNAM>32768</FNAM>
+      <SNAM>4</SNAM>
+      <ENAM>4</ENAM>
+      <DATA>01000821</DATA>
+      <HTID>37</HTID>
+      <DMAX>10</DMAX>
+      <DMIN>1</DMIN>
+      <DEMO>3</DEMO>
+      <DEVA>0</DEVA>
+      <ANAM></ANAM>
+      <ANAM>0000</ANAM>
+      <NAM0></NAM0>
+      <ALID>37</ALID>
+      <INAM>6</INAM>
+      <FNAM>32768</FNAM>
+      <SNAM>5</SNAM>
+      <ENAM>5</ENAM>
+      <DATA>01000823</DATA>
+      <HTID>1</HTID>
+      <DMAX>10</DMAX>
+      <DMIN>1</DMIN>
+      <DEMO>2</DEMO>
+      <DEVA>0</DEVA>
+      <ANAM></ANAM>
+      <ANAM>0000</ANAM>
+      <NAM0></NAM0>
+      <ALID>1</ALID>
+      <INAM>7</INAM>
+      <FNAM>32768</FNAM>
+      <SNAM>6</SNAM>
+      <ENAM>6</ENAM>
+      <DATA>01000825</DATA>
+      <HTID>37</HTID>
+      <DMAX>10</DMAX>
+      <DMIN>1</DMIN>
+      <DEMO>3</DEMO>
+      <DEVA>0</DEVA>
+      <ANAM></ANAM>
+      <ANAM>0100</ANAM>
+      <NAM0></NAM0>
+      <ALID>1</ALID>
+      <INAM>8</INAM>
+      <SNAM>0</SNAM>
+      <ENAM>6</ENAM>
+      <PNAM>01000826</PNAM>
+      <ANAM></ANAM>
+      <ANAM>0100</ANAM>
+      <NAM0></NAM0>
+      <ALID>37</ALID>
+      <INAM>9</INAM>
+      <SNAM>1</SNAM>
+      <ENAM>4</ENAM>
+      <PNAM>01000819</PNAM>
+      <ANAM></ANAM>
+      <ANAM>0100</ANAM>
+      <NAM0></NAM0>
+      <ALID>37</ALID>
+      <INAM>10</INAM>
+      <SNAM>5</SNAM>
+      <ENAM>6</ENAM>
+      <PNAM>01000827</PNAM>
+      <ANAM></ANAM>
+      <PNAM>00023a64</PNAM>
+      <INAM>12</INAM>
+      <VNAM>
+        <struct setAllNormal="3" setAllPause="3" setAllEnd="3" dontSetAll="3" />
+      </VNAM>
+    </SCEN>
+    <SCEN flags="0x00000000" id="0100082d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaJailQuestKeepMarch</EDID>
+      <VMAD version="5" format="2">
+        <script name="STI_SF_JareeRaJailQuestKeepMarch" status="0" />
+        <fragments unknown="0x02" flags="0x02" filename="STI_SF_JareeRaJailQuestKeepMarch">
+          <end unknown="0x01" scriptName="STI_SF_JareeRaJailQuestKeepMarch" fragmentName="Fragment_0" />
+        </fragments>
+      </VMAD>
+      <FNAM>1</FNAM>
+      <HNAM />
+      <NAM0></NAM0>
+      <NEXT />
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>1</comparisonValueFloat>
+        <functionIndex>550</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x0100082d</param1>
+        <param2>0x00000002</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <NEXT />
+      <WNAM>200</WNAM>
+      <HNAM />
+      <ALID>1</ALID>
+      <LNAM>1</LNAM>
+      <DNAM>26</DNAM>
+      <ALID>0</ALID>
+      <LNAM>1</LNAM>
+      <DNAM>26</DNAM>
+      <ANAM>0100</ANAM>
+      <NAM0></NAM0>
+      <ALID>1</ALID>
+      <INAM>1</INAM>
+      <SNAM>0</SNAM>
+      <ENAM>0</ENAM>
+      <PNAM>01000828</PNAM>
+      <ANAM></ANAM>
+      <ANAM>0100</ANAM>
+      <NAM0></NAM0>
+      <ALID>0</ALID>
+      <INAM>2</INAM>
+      <SNAM>0</SNAM>
+      <ENAM>0</ENAM>
+      <PNAM>01000829</PNAM>
+      <ANAM></ANAM>
+      <PNAM>0100082c</PNAM>
+      <INAM>2</INAM>
+      <VNAM>
+        <struct setAllNormal="3" setAllPause="3" setAllEnd="3" dontSetAll="3" />
+      </VNAM>
+    </SCEN>
+  </GRUP>
+</plugin>

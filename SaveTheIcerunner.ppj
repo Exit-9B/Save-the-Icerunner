@@ -19,6 +19,7 @@
     <Script>STI_MS07DeejaScript.psc</Script>
     <Script>STI_MS07JareeRaScript.psc</Script>
     <Script>STI_MS07RumorJareeRaScript.psc</Script>
+    <Script>STI_MS07TreasureScript.psc</Script>
     <Script>STI_QF_STIJareeRaJailQuest.psc</Script>
     <Script>STI_SF_JareeRaJailQuestKeepMarch.psc</Script>
     <Script>STI_SF_MS07ArrestScene.psc</Script>

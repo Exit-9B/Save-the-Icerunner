@@ -102,6 +102,51 @@ ReferenceAlias Property Alias_MS07BrokenOarEntranceStageSetter Auto
 ReferenceAlias Property Alias_MS07LighthouseMapMarker Auto
 ;END ALIAS PROPERTY
 
+;BEGIN ALIAS PROPERTY MS07HargarsJournal
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07HargarsJournal Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07Guard
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07Guard Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07GuardBackup
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07GuardBackup Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07IcerunnerTreas01
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07IcerunnerTreas01 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07IcerunnerTreas02
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07IcerunnerTreas02 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07IcerunnerTreas03
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07IcerunnerTreas03 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07IcerunnerTreas04
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07IcerunnerTreas04 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07IcerunnerTreas05
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07IcerunnerTreas05 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY MS07IcerunnerTreas06
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_MS07IcerunnerTreas06 Auto
+;END ALIAS PROPERTY
+
 ;BEGIN FRAGMENT Fragment_43
 Function Fragment_43()
 ;BEGIN CODE
@@ -213,21 +258,6 @@ Function Fragment_48()
 EndFunction
 ;END FRAGMENT
 
-;BEGIN ALIAS PROPERTY MS07HargarsJournal
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_MS07HargarsJournal Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY MS07Guard
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_MS07Guard Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY MS07GuardBackup
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_MS07GuardBackup Auto
-;END ALIAS PROPERTY
-
 ;BEGIN FRAGMENT Fragment_45
 Function Fragment_45()
 ;BEGIN CODE
@@ -338,6 +368,9 @@ EndFunction
 Function Fragment_54()
 ;BEGIN CODE
 ; STI: Stage 350 - Captain Aldis arrests Jaree-Ra
+Actor Player = Alias_Player.GetActorReference()
+Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Player, -1)
+Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Player, -1)
 STIArrestKeyword.SendStoryEvent(akRef1=Alias_MS07Guard.GetReference())
 ;END CODE
 EndFunction
@@ -368,7 +401,7 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_59
 Function Fragment_59()
 ;BEGIN CODE
-; STI: Stage 340 - Captain Aldis arrests Jaree-Ra
+; STI: Stage 90 - Captain Aldis arrests Jaree-Ra
 SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
 SetObjectiveDisplayed(60)
 SetObjectiveCompleted(60)                 ; Report Jaree-Ra to the guard captain

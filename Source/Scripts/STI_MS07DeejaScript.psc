@@ -10,10 +10,9 @@ Event OnDeath(Actor akKiller)
 	endif
 
 	Quest MS07 = GetOwningQuest()
-	if MS07.GetStage() < 50
+	if MS07.GetStage() < 10
 		MS07.Stop()
-		;MS07Rumor.Stop()
-	elseif MS07.GetStage() >= 125
+	elseif MS07.GetStage() >= 125 && MS07.GetStage() < 175
 		MS07.SetStage(175)
 	endif
 EndEvent

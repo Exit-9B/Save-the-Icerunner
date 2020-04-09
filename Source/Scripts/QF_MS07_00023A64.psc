@@ -336,7 +336,9 @@ EndFunction
 Function Fragment_51()
 ;BEGIN CODE
 ; STI: Stage 110 - Player killed Deeja and Jaree-Ra turns on player
+IcerunnerQST.SetStage(20)
 MS07BanditSiblings.SetEnemy(PlayerFaction)
+Alias_MS07JareeRa.GetActorRef().StartCombat(Alias_Player.GetActorReference())
 Alias_MS07JareeRa.GetActorRef().SetCrimeFaction(None)
 Alias_MS07JareeRa.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
 ;END CODE
@@ -346,8 +348,10 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_52
 Function Fragment_52()
 ;BEGIN CODE
-; STI: Stage 110 - Player killed Deeja and Jaree-Ra turns on player
+; STI: Stage 120 - Deeja died and Jaree-Ra turns on player
+IcerunnerQST.SetStage(20)
 MS07BanditSiblings.SetEnemy(PlayerFaction)
+Alias_MS07JareeRa.GetActorRef().StartCombat(Alias_Player.GetActorReference())
 Alias_MS07JareeRa.GetActorRef().SetCrimeFaction(None)
 Alias_MS07JareeRa.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
 ;END CODE

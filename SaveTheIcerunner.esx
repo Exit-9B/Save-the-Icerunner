@@ -911,7 +911,7 @@
         <CTDA>
           <operator>0x80</operator>
           <unknown0>0x00,0x00,0x00</unknown0>
-          <comparisonValueFloat>100</comparisonValueFloat>
+          <comparisonValueFloat>90</comparisonValueFloat>
           <functionIndex>58</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>

@@ -8,7 +8,7 @@ Auto State waitingForLoad
 	Event OnLoad()
 		;Debug.Trace("STI - OnLoad called for " + GetRef())
 		Quest MS07 = GetOwningQuest()
-		if MS07.GetStageDone(100) && (MS07 as MS07Script).WorkingTogether == 0
+		if MS07.GetStageDone(100) && !MS07.GetStageDone(65)
 			if !MS07Deeja.GetActorReference().IsDead()
 				GetReference().RemoveAllItems(MS07IcerunnerChest.GetReference())
 			endif

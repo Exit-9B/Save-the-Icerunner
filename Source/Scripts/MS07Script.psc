@@ -12,6 +12,3 @@ int Property ConfrontedJareeRa  Auto  Conditional
 int Property KilledDeeja  Auto  Conditional
 {Did the player kill Deeja? 0 = no, 1 = yes}
 
-int Property WorkingTogether  Auto  Conditional
-{Did the player persuade Jaree-Ra to work together? 0 = no, 1 = yes}
-

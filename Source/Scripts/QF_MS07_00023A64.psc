@@ -149,10 +149,6 @@ ReferenceAlias Property Alias_MS07IcerunnerTreas06 Auto
 
 ;BEGIN FRAGMENT Fragment_43
 Function Fragment_43()
-;BEGIN AUTOCAST TYPE MS07Script
-Quest __temp = self as Quest
-MS07Script kmyQuest = __temp as MS07Script
-;END AUTOCAST
 ;BEGIN CODE
 ; STI: Stage 125 - Player met with Jaree-Ra and goes to meet Deeja
 setObjectiveCompleted(100)               ; Meet with Jaree-Ra
@@ -162,7 +158,7 @@ Actor Deeja = Alias_MS07Deeja.GetActorReference()
 Deeja.MoveTo(Alias_MS07DeejaIcerunnerMarker.GetRef())
 Deeja.Enable()
 
-if kmyQuest.WorkingTogether == 0
+if !GetStageDone(65)
 	Deeja.SetCrimeFaction(None)
 	Deeja.RemoveFromFaction(CrimeFactionHaafingar)
 	Deeja.AddItem(Alias_MS07DeejaNote.GetRef())
@@ -226,7 +222,6 @@ Function Fragment_42()
 ;BEGIN CODE
 ; STI: Stage 50 - Player accepted Jaree-Ra's offer
 SetObjectiveCompleted(10)               ; Accept Jaree-Ra's offer in Solitude             
-;SetObjectiveFailed(15)               ; Find evidence of Jaree-Ra's criminal activity
 setObjectiveDisplayed(50)                 ; Put out the Solitude Lighthouse fire
 MS07Rumor.setstage(20)
 Alias_MS07LighthouseMapMarker.GetRef().AddToMap()
@@ -399,6 +394,7 @@ Function Fragment_53()
 SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
 SetObjectiveCompleted(55)                 ; Confront Jaree-Ra
 IcerunnerQST.SetStage(300)
+Stop()
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -407,12 +403,13 @@ EndFunction
 Function Fragment_54()
 ;BEGIN CODE
 ; STI: Stage 350 - Captain Aldis arrests Jaree-Ra
-STIArrestKeyword.SendStoryEvent()
+STIArrestKeyword.SendStoryEventAndWait()
 
 Actor Player = Alias_Player.GetActorReference()
 Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Player, -1)
 Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Player, -1)
 IcerunnerQST.SetStage(300)
+Stop()
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -461,6 +458,7 @@ Alias_MS07JareeRa.GetActorRef().AddToFaction(PotentialFollowerFaction)
 Alias_MS07JareeRa.GetActorRef().AddToFaction(PotentialMarriageFaction)
 Alias_MS07Deeja.GetActorRef().AddToFaction(PotentialFollowerFaction)
 Alias_MS07Deeja.GetActorRef().AddToFaction(PotentialMarriageFaction)
+Stop()
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -481,6 +479,24 @@ if !JareeRa.IsDead()
 	JareeRa.SetRelationshipRank(Alias_Player.GetActorReference(), -1)
 	STIRevengeKeyword.SendStoryEvent()
 endif
+
+Stop()
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_63
+Function Fragment_63()
+;BEGIN CODE
+; STI: Stage 65 - Player persuaded Jaree-Ra to work together
+SetStage(50)
+SetObjectiveCompleted(55)                 ; Confront Jaree-Ra
+
+; Set up Ebony Blade for top 10 anime betrayals
+Actor Player = Alias_Player.GetActorReference()
+Alias_MS07JareeRa.GetActorReference().SetRelationshipRank(Player, 1)
+Alias_MS07Deeja.GetActorReference().SetRelationshipRank(Player, 1)
+
 ;END CODE
 EndFunction
 ;END FRAGMENT

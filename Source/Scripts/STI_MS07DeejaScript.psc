@@ -13,7 +13,7 @@ Event OnDeath(Actor akKiller)
 	if MS07.GetStage() < 10
 		MS07.Stop()
 	elseif MS07.GetStage() >= 125 && MS07.GetStage() < 175
-		if (MS07 as MS07Script).WorkingTogether == 0
+		if !MS07.GetStageDone(65)
 			; Vanilla quest progression
 			MS07.SetStage(175)
 		else
@@ -39,7 +39,7 @@ Auto State waitingForPlayer
 			Quest MS07 = GetOwningQuest()
 			if MS07.GetStageDone(125)
 				GotoState("hasBeenTriggered")
-				if (MS07 as MS07Script).WorkingTogether == 0
+				if !MS07.GetStageDone(65)
 					MS07.SetStage(150)
 				endif
 			endif

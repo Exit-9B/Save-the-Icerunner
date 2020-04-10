@@ -22,6 +22,7 @@
     <Script>STI_MS07PlayerScript.psc</Script>
     <Script>STI_MS07RumorJareeRaScript.psc</Script>
     <Script>STI_MS07TreasureScript.psc</Script>
+    <Script>STI_StopQuestOnDeathScript.psc</Script>
     <Script>STI_QF_STIJareeRaJailQuest.psc</Script>
     <Script>STI_SF_JareeRaJailQuestKeepMarch.psc</Script>
     <Script>STI_SF_MS07ArrestScene.psc</Script>
@@ -44,6 +45,7 @@
     <Script>TIF__00025F63.psc</Script>
     <Script>TIF__00025F6B.psc</Script>
     <Script>TIF__00061F08.psc</Script>
+    <Script>TIF__0007EADC.psc</Script>
   </Scripts>
   <Packages Output="@myproject">
     <Package Name="@plugin" RootDir="@myproject">

@@ -1,9 +1,11 @@
 Scriptname STI_dunIcerunnerScript extends Quest
 
-ReferenceAlias Property SavedIcerunnerEnableMarker  Auto
+;ReferenceAlias Property SavedIcerunnerEnableMarker  Auto
 
 Event OnUpdateGameTime()
-	if !SavedIcerunnerEnableMarker.GetRef().IsNearPlayer()
+	;Parapets hasn't fixed the Icerunner yet
+	;if !SavedIcerunnerEnableMarker.GetRef().IsNearPlayer()
+	if false
 		; Bring back the Icerunner
 		SetStage(400)
 	else

@@ -1,5 +1,5 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 61
+;NEXT FRAGMENT INDEX 63
 Scriptname QF_MS07_00023A64 Extends Quest Hidden
 
 ;BEGIN ALIAS PROPERTY MS07LighthouseFireOff
@@ -149,20 +149,31 @@ ReferenceAlias Property Alias_MS07IcerunnerTreas06 Auto
 
 ;BEGIN FRAGMENT Fragment_43
 Function Fragment_43()
+;BEGIN AUTOCAST TYPE MS07Script
+Quest __temp = self as Quest
+MS07Script kmyQuest = __temp as MS07Script
+;END AUTOCAST
 ;BEGIN CODE
+; STI: Stage 125 - Player met with Jaree-Ra and goes to meet Deeja
 setObjectiveCompleted(100)               ; Meet with Jaree-Ra
 
 IcerunnerQST.Setstage(10)
-alias_MS07Deeja.GetRef().moveto(alias_MS07DeejaIcerunnerMarker.GetRef())
-alias_MS07Deeja.GetRef().Enable()
-Alias_MS07Deeja.GetActorRef().SetCrimeFaction(None)
-Alias_MS07Deeja.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
-Alias_MS07Deeja.GetActorRef().AddItem(Alias_MS07DeejaNote.GetRef())
+Actor Deeja = Alias_MS07Deeja.GetActorReference()
+Deeja.MoveTo(Alias_MS07DeejaIcerunnerMarker.GetRef())
+Deeja.Enable()
 
-;USLEEP 3.0.10 Bug #21172
-Actor Player = Alias_Player.GetActorReference()
-Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Player, -1)
-Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Player, -1)
+if kmyQuest.WorkingTogether == 0
+	Deeja.SetCrimeFaction(None)
+	Deeja.RemoveFromFaction(CrimeFactionHaafingar)
+	Deeja.AddItem(Alias_MS07DeejaNote.GetRef())
+
+	; STI: Make sure Ebony Blade doesn't power up
+	Actor Player = Alias_Player.GetActorReference()
+	Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
+	Deeja.SetRelationshipRank(Player, -1)
+	JareeRa.SetRelationshipRank(Player, -1)
+endif
+
 
 Alias_MS07IceRunnerMapMarker.GetRef().AddToMap()
 setObjectiveDisplayed(125)                 ; Find Deeja at the wreck of the Icerunner
@@ -173,8 +184,12 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_14
 Function Fragment_14()
 ;BEGIN CODE
+; STI: Stage 100 - Player put out the fire
 alias_MS07LighthouseFireOff.GetRef().enable()
 alias_MS07LighthouseFire.GetRef().Disable()
+if IsObjectiveDisplayed(15) && !IsObjectiveCompleted(15)
+	SetObjectiveFailed(15)
+endif
 setObjectiveCompleted(50)               ; Put out the Solitude Lighthouse fire
 setObjectiveDisplayed(100)               ; Meet with Jaree-Ra
 ;move Jaree-Ra to docks
@@ -189,7 +204,8 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_2
 Function Fragment_2()
 ;BEGIN CODE
-setObjectiveDisplayed(10)              ; Listen to Jaree-Ra's offer in Solitude
+; STI: Stage 10 - Player heard Jaree-Ra's offer
+SetObjectiveDisplayed(10)              ; Accept Jaree-Ra's offer in Solitude
 SetObjectiveDisplayed(12)              ; Report Jaree-Ra to the guard captain
 MS07Rumor.setstage(20)
 ;END CODE
@@ -208,7 +224,8 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_42
 Function Fragment_42()
 ;BEGIN CODE
-setObjectiveCompleted(10)               ; Listen to Jaree-Ra's offer in Solitude             
+; STI: Stage 50 - Player accepted Jaree-Ra's offer
+SetObjectiveCompleted(10)               ; Accept Jaree-Ra's offer in Solitude             
 ;SetObjectiveFailed(15)               ; Find evidence of Jaree-Ra's criminal activity
 setObjectiveDisplayed(50)                 ; Put out the Solitude Lighthouse fire
 MS07Rumor.setstage(20)
@@ -228,6 +245,7 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_44
 Function Fragment_44()
 ;BEGIN CODE
+; STI: Stage 175 - Player defeated Deeja at the Icerunner
 setObjectiveCompleted(125)                    ; Find Deeja at the wreck of the Icerunner
 setObjectiveCompleted(150)                    ; Defeat Deeja
 setObjectiveDisplayed(175)                      ;Find out where Jaree-Ra's bandits took the loot
@@ -238,8 +256,9 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_46
 Function Fragment_46()
 ;BEGIN CODE
+; STI: Stage 250 - Player defeated Jaree-Ra at Broken Oar Grotto
 setObjectiveCompleted(225)                    ; Defeat Jaree-Ra
-Alias_MS07DeejaNote.GetRef().Disable()
+;Alias_MS07DeejaNote.GetRef().Disable()
 ;USLEEP 3.0.4 Bug #19942
 Alias_MS07LighthouseFireOff.GetReference().Disable()
 Alias_MS07LighthouseFire.GetReference().Enable()
@@ -261,6 +280,7 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_45
 Function Fragment_45()
 ;BEGIN CODE
+; STI: Stage 225 - Player arrived at Broken Oar Grotto, Jaree-Ra still alive
 setObjectiveCompleted(200)                    ;Travel to Camp Broken Oar
 setObjectiveDisplayed(225)                      ; Defeat Jaree-Ra
 
@@ -277,6 +297,7 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_18
 Function Fragment_18()
 ;BEGIN CODE
+; STI: Stage 150 - Deeja turned on player at the Icerunner
 setObjectiveCompleted(125)                    ; Find Deeja at the wreck of the Icerunner
 setObjectiveDisplayed(150)                      ; Defeat Deeja
 
@@ -295,8 +316,15 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_24
 Function Fragment_24()
 ;BEGIN CODE
+; STI: Stage 200 - Player found Jaree-Ra's note to Deeja
 setObjectiveCompleted(175)                    ; Find out where Jaree-Ra's bandits took the loot
 setObjectiveDisplayed(200)                      ; Travel to Camp Broken Oar
+
+if !Alias_MS07Deeja.GetActorReference().IsDead()
+	; Stage was advanced via console, leveled lists need to load to move loot
+	Alias_MS07Deeja.GetActorRef().Kill(Alias_Player.GetActorRef())
+	Alias_Player.GetActorRef().MoveTo(Alias_MS07DeejaIcerunnerMarker.GetRef())
+endif
 
 alias_MS07IcerunnerLootEnabler.GetRef().Enable()
 
@@ -309,6 +337,7 @@ EndFunction
 Function Fragment_49()
 ;BEGIN CODE
 ; STI: Stage 300 - Player killed Jaree-Ra without putting out the fire
+IcerunnerQST.SetStage(300)
 Stop()
 ;END CODE
 EndFunction
@@ -323,12 +352,18 @@ IcerunnerQST.SetStage(10)
 IcerunnerQST.SetStage(20)
 MS07BanditSiblings.SetEnemy(PlayerFaction)
 
-if Alias_MS07Deeja.GetActorReference().IsDead()
+Actor Deeja = Alias_MS07Deeja.GetActorReference()
+if Deeja.IsDead()
 	(Alias_Player as STI_MS07PlayerScript).GotoState("endAtIcerunner")
+else
+	; STI: Make sure Ebony Blade doesn't power up
+	Deeja.SetRelationshipRank(Alias_Player.GetActorRef(), -1)
 endif
 
 Alias_MS07IceRunnerMapMarker.GetRef().AddToMap()
-SetObjectiveDisplayed(130)                    ; Travel to the wreck of the Icerunner
+if !IsObjectiveDisplayed(125)
+	SetObjectiveDisplayed(130)                    ; Travel to the wreck of the Icerunner
+endif
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -363,6 +398,7 @@ Function Fragment_53()
 ; STI: Stage 310 - Player convinces Jaree-Ra to give up
 SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
 SetObjectiveCompleted(55)                 ; Confront Jaree-Ra
+IcerunnerQST.SetStage(300)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -371,10 +407,12 @@ EndFunction
 Function Fragment_54()
 ;BEGIN CODE
 ; STI: Stage 350 - Captain Aldis arrests Jaree-Ra
+STIArrestKeyword.SendStoryEvent()
+
 Actor Player = Alias_Player.GetActorReference()
 Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Player, -1)
 Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Player, -1)
-STIArrestKeyword.SendStoryEvent()
+IcerunnerQST.SetStage(300)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -383,8 +421,7 @@ EndFunction
 Function Fragment_55()
 ;BEGIN CODE
 ; STI: Stage 55 - Player read Hargar's journal
-;SetObjectiveFailed(10)               ; Listen to Jaree-Ra's offer in Solitude
-SetObjectiveCompleted(12)               ; Report Jaree-Ra to the guard captain
+SetObjectiveDisplayed(12, false)               ; Report Jaree-Ra to the guard captain
 SetObjectiveCompleted(15)               ; Find evidence of Jaree-Ra's criminal activity
 SetObjectiveDisplayed(55)               ; Confront Jaree-Ra
 SetObjectiveDisplayed(60)               ; Report Jaree-Ra to the guard captain
@@ -406,10 +443,44 @@ EndFunction
 Function Fragment_59()
 ;BEGIN CODE
 ; STI: Stage 90 - Captain Aldis will arrest Jaree-Ra
+SetObjectiveFailed(10)
 SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
 SetObjectiveDisplayed(60)
 SetObjectiveCompleted(60)                 ; Report Jaree-Ra to the guard captain
-STI_MS07ArrestScene.Start()
+MS07ArrestScene.Start()
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_61
+Function Fragment_61()
+;BEGIN CODE
+; STI: Stage 320 - Player worked together with the bandits
+SetObjectiveCompleted(125)                 ; Find Deeja at the wreck of the Icerunner
+Alias_MS07JareeRa.GetActorRef().AddToFaction(PotentialFollowerFaction)
+Alias_MS07JareeRa.GetActorRef().AddToFaction(PotentialMarriageFaction)
+Alias_MS07Deeja.GetActorRef().AddToFaction(PotentialFollowerFaction)
+Alias_MS07Deeja.GetActorRef().AddToFaction(PotentialMarriageFaction)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_62
+Function Fragment_62()
+;BEGIN CODE
+; STI: Stage 330 - Player betrayed the bandits
+if IsObjectiveDisplayed(125)
+	SetObjectiveCompleted(125)                 ; Find Deeja at the wreck of the Icerunner
+endif
+if IsObjectiveDisplayed(130)
+	SetObjectiveCompleted(130)                 ; Travel to the wreck of the Icerunner
+endif
+
+Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
+if !JareeRa.IsDead()
+	JareeRa.SetRelationshipRank(Alias_Player.GetActorReference(), -1)
+	STIRevengeKeyword.SendStoryEvent()
+endif
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -437,6 +508,12 @@ Quest Property MS07Rumor  Auto
 
 AchievementsScript Property AchievementsQuest Auto
 
+Scene Property MS07ArrestScene  Auto  
+
 Keyword Property STIArrestKeyword  Auto  
 
-Scene Property STI_MS07ArrestScene  Auto  
+Keyword Property STIRevengeKeyword  Auto  
+
+Faction Property PotentialFollowerFaction  Auto  
+
+Faction Property PotentialMarriageFaction  Auto  

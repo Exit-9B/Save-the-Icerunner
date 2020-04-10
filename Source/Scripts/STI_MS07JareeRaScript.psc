@@ -9,8 +9,8 @@ Event OnDeath(Actor akKiller)
 	elseif MS07.GetStage() < 100
 		; Player hasn't put out the fire
 		MS07.SetStage(300)
-	elseif MS07.GetStage() < 125
-		; Player has put out the fire but not talked to Jaree-Ra
+	elseif MS07.GetStage() < 130
+		; Player has put out the fire and killed Jaree-Ra at the docks
 		MS07.SetStage(130)
 	elseif MS07.GetStage() < 175
 		; Player is heading to Icerunner already

@@ -3,7 +3,7 @@
   Flags="TESV_Papyrus_Flags.flg"
   Output="@myproject\Scripts"
   Game="sse"
-  Optimize="true" Anonymize="true" Package="false" Zip="false">
+  Optimize="true" Anonymize="true" Package="true" Zip="false">
   <Variables>
     <Variable Name="modname" Value="Save the Icerunner"/>
     <Variable Name="plugin" Value="SaveTheIcerunner"/>
@@ -28,9 +28,12 @@
     <Script>STI_TIF__AldisHaveProof.psc</Script>
     <Script>STI_TIF__AldisNeedProof.psc</Script>
     <Script>STI_TIF__AldisReportProof.psc</Script>
+    <Script>STI_TIF__DeejaSplitLoot.psc</Script>
     <Script>STI_TIF__JRDeejaDied.psc</Script>
     <Script>STI_TIF__JRGiveUp.psc</Script>
     <Script>STI_TIF__JRKilledDeeja.psc</Script>
+    <Script>STI_TIF__JRRevengeTalk.psc</Script>
+    <Script>STI_TIF__JRRevengeWalk.psc</Script>
     <Script>STI_TIF__JRShowJournal.psc</Script>
     <Script>STI_TIF__JRWantIn.psc</Script>
     <!-- Vanilla scripts -->
@@ -39,11 +42,13 @@
     <Script>QF_MS07_00023A64.psc</Script>
     <Script>QF_MS07Start_000AA9A9.psc</Script>
     <Script>TIF__00025F63.psc</Script>
+    <Script>TIF__00025F6B.psc</Script>
     <Script>TIF__00061F08.psc</Script>
   </Scripts>
   <Packages Output="@myproject">
     <Package Name="@plugin" RootDir="@myproject">
       <Include NoRecurse="true">Scripts</Include>
+      <Include NoRecurse="false">Sound</Include>
     </Package>
   </Packages>
   <ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">

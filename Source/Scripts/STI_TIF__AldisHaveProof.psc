@@ -6,7 +6,7 @@ Scriptname STI_TIF__AldisHaveProof Extends TopicInfo Hidden
 Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-getOwningQuest().setObjectiveDisplayed(15)
+GetOwningQuest().SetObjectiveDisplayed(15)
 GetOwningQuest().SetObjectiveCompleted(15)
 PlayerRef.RemoveItem(MS07HargarsJournal.GetRef(), 1, false, akSpeakerRef)
 ;END CODE
@@ -18,7 +18,7 @@ Function Fragment_1(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
 akSpeakerRef.RemoveItem(MS07HargarsJournal.GetRef(), 1, false, PlayerRef)
-MS07Guard.ForceRefTo(akSpeakerRef)
+MS07Guard.ForceRefTo(akSpeaker)
 GetOwningQuest().SetStage(90)
 ;END CODE
 EndFunction
@@ -26,10 +26,10 @@ EndFunction
 
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
 
+ReferenceAlias Property MS07Guard  Auto  
+
 ReferenceAlias Property MS07HargarsJournal  Auto  
 
 Actor Property PlayerRef  Auto  
 
 Scene Property ArrestScene  Auto  
-
-ReferenceAlias Property MS07Guard  Auto  

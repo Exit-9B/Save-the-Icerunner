@@ -2,7 +2,7 @@
 <plugin version="0.5">
   <TES4 flags="0x00000000" id="00000000" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
     <HEDR>
-      <struct version="1.70000005" numRecords="148" nextObjectID="0000aef3" />
+      <struct version="1.70000005" numRecords="187" nextObjectID="0000d4a1" />
     </HEDR>
     <CNAM>Parapets</CNAM>
     <MAST>Skyrim.esm</MAST>
@@ -14,17 +14,21 @@
       <EDID>STIArrestKeyword</EDID>
       <CNAM>0,0,0,0</CNAM>
     </KYWD>
+    <KYWD flags="0x00000000" id="01000835" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIRevengeKeyword</EDID>
+      <CNAM>0,0,0,0</CNAM>
+    </KYWD>
   </GRUP>
   <GRUP label="NPC_" groupType="0" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
     <NPC_ flags="0x00040000" id="00013268" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
       <EDID>Deeja</EDID>
       <VMAD version="5" format="2">
         <script name="WIDeadBodyCleanupScript" status="0">
-          <property name="DeathContainer" type="1" status="1">
-            <object formID="000861fb" alias="65535" unused="0x0000" />
-          </property>
           <property name="WI" type="1" status="1">
             <object formID="00035d64" alias="65535" unused="0x0000" />
+          </property>
+          <property name="DeathContainer" type="1" status="1">
+            <object formID="000861fb" alias="65535" unused="0x0000" />
           </property>
         </script>
       </VMAD>
@@ -72,7 +76,7 @@
       <FULL>Deeja</FULL>
       <DATA />
       <DNAM>
-        <struct baseSkill="34|15|28|15|15|15|33|20|25|40|15|15|27|15|15|15|20|15" modSkill="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0" calculatedHealth="125" calculatedMagicka="65" calculatedStamina="95" unknown0="0x416c" farAwayModelDistance="0" gearedUpWeapons="1" unknown1="0x74|0xf1|0x83" />
+        <struct baseSkill="34|15|28|15|15|15|33|20|25|40|15|15|27|15|15|15|20|15" modSkill="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0" calculatedHealth="125" calculatedMagicka="65" calculatedStamina="95" unknown0="0x416c" farAwayModelDistance="0" gearedUpWeapons="1" unknown1="0xf4|0xb0|0x87" />
       </DNAM>
       <PNAM>000a2eaf</PNAM>
       <PNAM>000b2e1d</PNAM>
@@ -163,11 +167,11 @@
       <EDID>JareeRa</EDID>
       <VMAD version="5" format="2">
         <script name="WIDeadBodyCleanupScript" status="0">
-          <property name="DeathContainer" type="1" status="1">
-            <object formID="000861fa" alias="65535" unused="0x0000" />
-          </property>
           <property name="WI" type="1" status="1">
             <object formID="00035d64" alias="65535" unused="0x0000" />
+          </property>
+          <property name="DeathContainer" type="1" status="1">
+            <object formID="000861fa" alias="65535" unused="0x0000" />
           </property>
         </script>
       </VMAD>
@@ -185,9 +189,6 @@
       </SNAM>
       <SNAM>
         <struct faction="00029db0" rank="0" unused="0x00|0x00|0x00" />
-      </SNAM>
-      <SNAM>
-        <struct faction="0005c84d" rank="0" unused="0x00|0x00|0x00" />
       </SNAM>
       <SNAM>
         <struct faction="00085dbf" rank="0" unused="0x00|0x00|0x00" />
@@ -231,7 +232,7 @@
       <SHRT>Jaree</SHRT>
       <DATA />
       <DNAM>
-        <struct baseSkill="22|15|17|19|15|15|24|20|25|27|15|15|20|15|15|15|20|15" modSkill="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0" calculatedHealth="80" calculatedMagicka="50" calculatedStamina="65" unknown0="0x416c" farAwayModelDistance="0" gearedUpWeapons="1" unknown1="0x74|0xf1|0x83" />
+        <struct baseSkill="22|15|17|19|15|15|24|20|25|27|15|15|20|15|15|15|20|15" modSkill="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0" calculatedHealth="80" calculatedMagicka="50" calculatedStamina="65" unknown0="0x416c" farAwayModelDistance="0" gearedUpWeapons="1" unknown1="0xf4|0xb0|0x87" />
       </DNAM>
       <PNAM>0009d75c</PNAM>
       <PNAM>000b2fd5</PNAM>
@@ -346,18 +347,11 @@
         </CELL>
         <GRUP label="0x0001521b" groupType="6" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
           <GRUP label="0x0001521b" groupType="8" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
-            <REFR flags="0x00000400" id="0007aa95" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0001">
-              <NAME>000ef052</NAME>
+            <REFR flags="0x00000400" id="0008fca4" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
+              <NAME>0008a3b4</NAME>
               <XLRL>0001929e</XLRL>
               <DATA>
-                <struct position="87.1994247,-629.223267,207.958847" rotation="0,-0,1.85000014" />
-              </DATA>
-            </REFR>
-            <REFR flags="0x00000400" id="0009057b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0002">
-              <NAME>000ef052</NAME>
-              <XLRL>0001929e</XLRL>
-              <DATA>
-                <struct position="369.656006,204.929947,203.241974" rotation="0,-0,4.15000057" />
+                <struct position="535.707947,247.088562,376" rotation="0,-0,4.51238918" />
               </DATA>
             </REFR>
             <REFR flags="0x00000400" id="0007aa91" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0001">
@@ -368,18 +362,18 @@
                 <struct position="191.623795,-941.639038,207.302292" rotation="0,-0,3.20000005" />
               </DATA>
             </REFR>
+            <REFR flags="0x00000400" id="0009057b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0002">
+              <NAME>000ef052</NAME>
+              <XLRL>0001929e</XLRL>
+              <DATA>
+                <struct position="369.656006,204.929947,203.241974" rotation="0,-0,4.15000057" />
+              </DATA>
+            </REFR>
             <REFR flags="0x00000400" id="0008fca3" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0001">
               <NAME>0008a3b4</NAME>
               <XLRL>0001929e</XLRL>
               <DATA>
                 <struct position="349.391754,-71.1822968,372" rotation="0,-0,4.51238918" />
-              </DATA>
-            </REFR>
-            <REFR flags="0x00000400" id="0008fca4" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
-              <NAME>0008a3b4</NAME>
-              <XLRL>0001929e</XLRL>
-              <DATA>
-                <struct position="535.707947,247.088562,376" rotation="0,-0,4.51238918" />
               </DATA>
             </REFR>
             <REFR flags="0x00000400" id="0008fcd5" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0003">
@@ -389,6 +383,43 @@
                 <struct position="-252.359436,-1177.16138,422.642303" rotation="0.0999999121,-0,4.65000057" />
               </DATA>
             </REFR>
+            <REFR flags="0x00000400" id="0007aa95" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0001">
+              <NAME>000ef052</NAME>
+              <XLRL>0001929e</XLRL>
+              <DATA>
+                <struct position="87.1994247,-629.223267,207.958847" rotation="0,-0,1.85000014" />
+              </DATA>
+            </REFR>
+          </GRUP>
+        </GRUP>
+      </GRUP>
+      <GRUP label="0x00000009" groupType="3" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+        <CELL flags="0x00040000" id="000a1793" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+          <EDID>SolitudeRedWave</EDID>
+          <FULL>Red Wave</FULL>
+          <DATA>0300</DATA>
+          <XCLL>
+            <struct ambient="54,53,64,0" directional="63,71,73,0" fogNearColor="81,87,104,0" fogNear="0" fogFar="2700" rotationXY="0" rotationZ="0" directionalFade="0" fogClipDistance="2000" fogPow="0.800000012" ambientPositiveX="59,53,67,0" ambientNegativeX="48,53,61,0" ambientPositiveY="54,55,64,0" ambientNegativeY="54,50,64,0" ambientPositiveZ="25,25,29,0" ambientNegativeZ="82,80,99,0" specularColor="0,0,0,0" fresnelPower="1" fogFarColor="78,88,87,0" fogMax="0.800000012" lightFadeDistanceStart="500" lightFadeDistanceEnd="5000" inheritFlags="0x00000000" />
+          </XCLL>
+          <LTMP>000300e2</LTMP>
+          <XCLW>-2.14748365e+09</XCLW>
+          <XLCN>000358b9</XLCN>
+          <XOWN>00085dbf</XOWN>
+          <XCAS>000d78b3</XCAS>
+          <XCMO>000b9dcb</XCMO>
+          <XCIM>000a2687</XCIM>
+        </CELL>
+        <GRUP label="0x000a1793" groupType="6" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+          <GRUP label="0x000a1793" groupType="8" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+            <ACHR flags="0x00000400" id="000198b9" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <EDID>JareeRaREF</EDID>
+              <NAME>0001328d</NAME>
+              <XLCN>00018a5a</XLCN>
+              <XLRL>000358b9</XLRL>
+              <DATA>
+                <struct position="74.545166,-456.559326,629.779907" rotation="0,0,5.47080612" />
+              </DATA>
+            </ACHR>
           </GRUP>
         </GRUP>
       </GRUP>
@@ -458,14 +489,39 @@
         </CELL>
         <GRUP label="0x000ba599" groupType="6" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
           <GRUP label="0x000ba599" groupType="8" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
-            <REFR flags="0x00000400" id="000babb7" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
-              <NAME>000f8476</NAME>
-              <XESP>
-                <struct parentReference="000babbc" flags="0x00000000" />
-              </XESP>
+            <REFR flags="0x00000c00" id="000facb8" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
               <XLRL>00019153</XLRL>
               <DATA>
-                <struct position="8192.12402,11660.6855,8347.41895" rotation="0,-0,5.83319616" />
+                <struct position="10018.3252,11890.0947,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facae" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="5673.86035,4365.26123,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb1" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="6061.89258,10829.9717,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb5" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="8040.10889,11360.0332,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb4" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="7510.04736,13338.249,7456.84277" rotation="0,0,6.02138615" />
               </DATA>
             </REFR>
             <REFR flags="0x00000400" id="000babb5" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0003">
@@ -474,6 +530,101 @@
               <XLRL>00019153</XLRL>
               <DATA>
                 <struct position="8418.07422,11719.0928,8410.74121" rotation="0,-0,1.4900043" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000faca9" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="3165.58301,5813.41602,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb3" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="5531.83105,12808.1875,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facac" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="1187.3667,5283.35449,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000ba6b6" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="2105.45996,9769.84863,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facad" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="5143.79932,6343.47754,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facab" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="1717.42798,3305.13818,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb6" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="8570.16992,9381.81641,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb2" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="2635.52148,7791.63232,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facaa" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="3695.64429,3835.19971,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000400" id="000facaf" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <XSCL>7</XSCL>
+              <DATA>
+                <struct position="4613.73779,8321.69336,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb0" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="4083.67627,10299.9102,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000c00" id="000facb7" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+              <NAME>000cc7b5</NAME>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="10548.3867,9911.87793,7456.84277" rotation="0,0,6.02138615" />
+              </DATA>
+            </REFR>
+            <REFR flags="0x00000400" id="000babb7" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
+              <NAME>000f8476</NAME>
+              <XESP>
+                <struct parentReference="000babbc" flags="0x00000000" />
+              </XESP>
+              <XLRL>00019153</XLRL>
+              <DATA>
+                <struct position="8192.12402,11660.6855,8347.41895" rotation="0,-0,5.83319616" />
               </DATA>
             </REFR>
           </GRUP>
@@ -485,7 +636,7 @@
     <DIAL flags="0x00000000" id="00025f50" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
       <EDID>Ms07AfterLamp0</EDID>
       <FULL>I put out the Lighthouse fire.</FULL>
-      <PNAM>50</PNAM>
+      <PNAM>70</PNAM>
       <BNAM>00025f7e</BNAM>
       <QNAM>00023a64</QNAM>
       <DATA>
@@ -635,7 +786,7 @@
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8aa98</param2>
+          <param2>0x87b82a98</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
@@ -933,18 +1084,31 @@
           <unknown1>0xffffffff</unknown1>
         </CTDA>
         <CTDA>
-          <operator>0x00</operator>
+          <operator>0x01</operator>
           <unknown0>0x00,0x00,0x00</unknown0>
           <comparisonValueFloat>0</comparisonValueFloat>
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8aa08</param2>
+          <param2>0x87b82a08</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
         </CTDA>
         <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x21</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b82a00</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::WorkingTogether_var</CIS2>
       </INFO>
       <INFO flags="0x00000000" id="000d6c57" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
         <ENAM>
@@ -1143,8 +1307,8 @@
         <CTDA>
           <operator>0x00</operator>
           <unknown0>0x00,0x00,0x00</unknown0>
-          <comparisonValueFloat>1</comparisonValueFloat>
-          <functionIndex>56</functionIndex>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>543</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
           <param2>0x00000000</param2>
@@ -1180,8 +1344,20 @@
         <CTDA>
           <operator>0x00</operator>
           <unknown0>0x00,0x00,0x00</unknown0>
-          <comparisonValueFloat>1</comparisonValueFloat>
-          <functionIndex>56</functionIndex>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>2</runOnType>
+          <reference>000198b9</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>543</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
           <param2>0x00000000</param2>
@@ -1217,8 +1393,20 @@
         <CTDA>
           <operator>0x00</operator>
           <unknown0>0x00,0x00,0x00</unknown0>
-          <comparisonValueFloat>1</comparisonValueFloat>
-          <functionIndex>56</functionIndex>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>2</runOnType>
+          <reference>000198b9</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>543</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
           <param2>0x00000000</param2>
@@ -1226,6 +1414,127 @@
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
         </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="00061d84" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07DeejaIcerunnerBranchTopic</EDID>
+      <FULL>So we're splitting the loot, then?</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>00062833</BNAM>
+      <QNAM>00023a64</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x00061d84" groupType="7" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0007eadc" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="TIF__0007EADC" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="TIF__0007EADC">
+            <fragment unknown="0x01" scriptName="TIF__0007EADC" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="5" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Ha! I'm afraid the loot's already been moved. You've been useful to the Blackbloods, though. You've earned a quick death.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>125</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00013268</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b82988</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::WorkingTogether_var</CIS2>
+      </INFO>
+      <INFO flags="0x00000000" id="01000834" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__DeejaSplitLoot" status="0" />
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__DeejaSplitLoot">
+            <fragment unknown="0x01" scriptName="STI_TIF__DeejaSplitLoot" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>0007eadc</PNAM>
+        <CNAM>0</CNAM>
+        <DNAM>000dba22</DNAM>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>125</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00013268</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x20</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b82978</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::WorkingTogether_var</CIS2>
       </INFO>
     </GRUP>
     <DIAL flags="0x00000000" id="00061e61" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
@@ -1797,7 +2106,7 @@
     <DIAL flags="0x00000000" id="000d6c4e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
       <EDID>MS07AfterLamp3Topic</EDID>
       <FULL>You're with the Blackblood Marauders?</FULL>
-      <PNAM>50</PNAM>
+      <PNAM>60</PNAM>
       <BNAM>000d6c61</BNAM>
       <QNAM>00023a64</QNAM>
       <DATA>
@@ -1826,7 +2135,7 @@
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8a8d8</param2>
+          <param2>0x87b828a0</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
@@ -1873,7 +2182,7 @@
     <DIAL flags="0x00000000" id="000d6c4f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0003">
       <EDID>MS07AfterLamp2Topic</EDID>
       <FULL>Why didn't your men put out the fire?</FULL>
-      <PNAM>50</PNAM>
+      <PNAM>55</PNAM>
       <BNAM>000d6c60</BNAM>
       <QNAM>00023a64</QNAM>
       <DATA>
@@ -1902,7 +2211,7 @@
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8a8b8</param2>
+          <param2>0x87b82880</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
@@ -2042,9 +2351,21 @@
         <NAM2></NAM2>
         <NAM3></NAM3>
         <CTDA>
-          <operator>0x00</operator>
+          <operator>0x60</operator>
           <unknown0>0x00,0x00,0x00</unknown0>
           <comparisonValueFloat>50</comparisonValueFloat>
+          <functionIndex>58</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x80</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>90</comparisonValueFloat>
           <functionIndex>58</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
@@ -2065,6 +2386,32 @@
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
         </CTDA>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b82838</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x21</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b82830</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::WorkingTogether_var</CIS2>
       </INFO>
     </GRUP>
     <DIAL flags="0x00000000" id="01000804" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
@@ -2117,7 +2464,7 @@
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8a850</param2>
+          <param2>0x87b82808</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
@@ -2164,7 +2511,11 @@
     <GRUP label="0x01000808" groupType="7" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
       <INFO flags="0x00000000" id="01000809" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
         <VMAD version="5" format="2">
-          <script name="STI_TIF__JRWantIn" status="0" />
+          <script name="STI_TIF__JRWantIn" status="0">
+            <property name="DialogueFavorGeneric" type="1" status="1">
+              <object formID="0005a6dc" alias="65535" unused="0x0000" />
+            </property>
+          </script>
           <fragments unknown="0x02" flags="0x01" filename="STI_TIF__JRWantIn">
             <fragment unknown="0x01" scriptName="STI_TIF__JRWantIn" fragmentName="Fragment_0" />
           </fragments>
@@ -2195,12 +2546,37 @@
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8a8a8</param2>
+          <param2>0x87b82870</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
         </CTDA>
         <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b827e0</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::WorkingTogether_var</CIS2>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>5</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0x00000007</unknown1>
+        </CTDA>
         <CTDA>
           <operator>0x65</operator>
           <unknown0>0x00,0x00,0x00</unknown0>
@@ -2258,12 +2634,25 @@
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8a818</param2>
+          <param2>0x87b827d0</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
         </CTDA>
         <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b827c8</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::WorkingTogether_var</CIS2>
       </INFO>
     </GRUP>
     <DIAL flags="0x00000000" id="0100080d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
@@ -2323,12 +2712,25 @@
           <functionIndex>629</functionIndex>
           <padding>0x00,0x00</padding>
           <param1>0x00023a64</param1>
-          <param2>0x83f8a7e0</param2>
+          <param2>0x87b82790</param2>
           <runOnType>0</runOnType>
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
         </CTDA>
         <CIS2>::ConfrontedJareeRa_var</CIS2>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>629</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x87b82788</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CIS2>::WorkingTogether_var</CIS2>
       </INFO>
     </GRUP>
     <DIAL flags="0x00000000" id="0100080f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
@@ -2493,14 +2895,14 @@
       <INFO flags="0x00000000" id="01000814" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
         <VMAD version="5" format="2">
           <script name="STI_TIF__AldisHaveProof" status="0">
-            <property name="MS07Guard" type="1" status="1">
-              <object formID="00023a64" alias="37" unused="0x0000" />
+            <property name="ArrestScene" type="1" status="1">
+              <object formID="01000818" alias="65535" unused="0x0000" />
             </property>
             <property name="PlayerRef" type="1" status="1">
               <object formID="00000014" alias="65535" unused="0x0000" />
             </property>
-            <property name="ArrestScene" type="1" status="1">
-              <object formID="01000818" alias="65535" unused="0x0000" />
+            <property name="MS07Guard" type="1" status="1">
+              <object formID="00023a64" alias="37" unused="0x0000" />
             </property>
             <property name="MS07HargarsJournal" type="1" status="1">
               <object formID="00023a64" alias="36" unused="0x0000" />
@@ -2584,14 +2986,14 @@
       <INFO flags="0x00000000" id="01000817" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
         <VMAD version="5" format="2">
           <script name="STI_TIF__AldisReportProof" status="0">
-            <property name="MS07Guard" type="1" status="1">
-              <object formID="00023a64" alias="37" unused="0x0000" />
+            <property name="ArrestScene" type="1" status="1">
+              <object formID="01000818" alias="65535" unused="0x0000" />
             </property>
             <property name="PlayerRef" type="1" status="1">
               <object formID="00000014" alias="65535" unused="0x0000" />
             </property>
-            <property name="ArrestScene" type="1" status="1">
-              <object formID="01000818" alias="65535" unused="0x0000" />
+            <property name="MS07Guard" type="1" status="1">
+              <object formID="00023a64" alias="37" unused="0x0000" />
             </property>
             <property name="MS07HargarsJournal" type="1" status="1">
               <object formID="00023a64" alias="36" unused="0x0000" />
@@ -2887,126 +3289,245 @@
         </CTDA>
       </INFO>
     </GRUP>
+    <DIAL flags="0x00000000" id="01000838" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaRevengeQuestForceGreetTopic</EDID>
+      <PNAM>50</PNAM>
+      <BNAM>01000837</BNAM>
+      <QNAM>01000836</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x01000838" groupType="7" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="01000839" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0180" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TCLT>0100083a</TCLT>
+        <TCLT>0100083c</TCLT>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>You, of all people!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <TWAT>0100083c</TWAT>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0100083a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaRevengeQuestReply</EDID>
+      <FULL>Hello, Jaree-Ra.</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>01000837</BNAM>
+      <QNAM>01000836</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x0100083a" groupType="7" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0100083b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__JRRevengeTalk" status="0">
+            <property name="PlayerRef" type="1" status="1">
+              <object formID="00000014" alias="65535" unused="0x0000" />
+            </property>
+          </script>
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__JRRevengeTalk">
+            <fragment unknown="0x01" scriptName="STI_TIF__JRRevengeTalk" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>You've betrayed me, murdered my sister and massacred my men!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Time for you to die!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="0100083c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaRevengeQuestWalkAway</EDID>
+      <PNAM>50</PNAM>
+      <BNAM>01000837</BNAM>
+      <QNAM>01000836</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>1</TIFC>
+    </DIAL>
+    <GRUP label="0x0100083c" groupType="7" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0100083d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <VMAD version="5" format="2">
+          <script name="STI_TIF__JRRevengeWalk" status="0">
+            <property name="PlayerRef" type="1" status="1">
+              <object formID="00000014" alias="65535" unused="0x0000" />
+            </property>
+          </script>
+          <fragments unknown="0x02" flags="0x02" filename="STI_TIF__JRRevengeWalk">
+            <fragment unknown="0x01" scriptName="STI_TIF__JRRevengeWalk" fragmentName="Fragment_0" />
+          </fragments>
+        </VMAD>
+        <ENAM>
+          <struct flags="0x0001" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Don't you walk away from me!</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
   </GRUP>
   <GRUP label="QUST" groupType="0" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
     <QUST flags="0x00000000" id="00023a64" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
       <EDID>MS07</EDID>
       <VMAD version="5" format="2">
-        <script name="MS07Script" status="0" />
         <script name="QF_MS07_00023A64" status="0">
-          <property name="Alias_MS07Guard" type="1" status="1">
-            <object formID="00023a64" alias="37" unused="0x0000" />
-          </property>
-          <property name="MS07BanditContact2WaitMarker" type="1" status="1">
-            <object formID="000267d9" alias="65535" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerTreas06" type="1" status="1">
-            <object formID="00023a64" alias="45" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07DeejaIcerunnerMarker" type="1" status="1">
-            <object formID="00023a64" alias="25" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerLootEnabler" type="1" status="1">
-            <object formID="00023a64" alias="20" unused="0x0000" />
-          </property>
-          <property name="SolitudeDocksDistrictMarker" type="1" status="1">
-            <object formID="0001b433" alias="65535" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07LighthouseFireOff" type="1" status="1">
-            <object formID="00023a64" alias="27" unused="0x0000" />
-          </property>
-          <property name="AchievementsQuest" type="1" status="1">
-            <object formID="000fc85d" alias="65535" unused="0x0000" />
-          </property>
-          <property name="PlayerFaction" type="1" status="1">
-            <object formID="00000db1" alias="65535" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerTreas01" type="1" status="1">
-            <object formID="00023a64" alias="40" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07DeejaNote" type="1" status="1">
-            <object formID="00023a64" alias="19" unused="0x0000" />
-          </property>
-          <property name="MS07OpeningScene" type="1" status="1">
-            <object formID="000c588d" alias="65535" unused="0x0000" />
+          <property name="Alias_MS07LighthouseFire" type="1" status="1">
+            <object formID="00023a64" alias="18" unused="0x0000" />
           </property>
           <property name="Alias_Player" type="1" status="1">
             <object formID="00023a64" alias="35" unused="0x0000" />
           </property>
-          <property name="Alias_MS07JareeRaDocksMeetingMarker" type="1" status="1">
-            <object formID="00023a64" alias="24" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07BrokenOarEntranceStageSetter" type="1" status="1">
-            <object formID="00023a64" alias="16" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07LighthouseMapMarker" type="1" status="1">
-            <object formID="00023a64" alias="32" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerTreas03" type="1" status="1">
-            <object formID="00023a64" alias="42" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerChest" type="1" status="1">
-            <object formID="00023a64" alias="21" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IceRunnerMapMarker" type="1" status="1">
-            <object formID="00023a64" alias="33" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07SorexVinius" type="1" status="1">
-            <object formID="00023a64" alias="29" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07HargarsJournal" type="1" status="1">
-            <object formID="00023a64" alias="36" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerTreas05" type="1" status="1">
-            <object formID="00023a64" alias="44" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07BanditGreeter" type="1" status="1">
-            <object formID="00023a64" alias="28" unused="0x0000" />
-          </property>
-          <property name="MS07BanditLeaderMarker" type="1" status="1">
-            <object formID="00023a67" alias="65535" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerLoot" type="1" status="1">
-            <object formID="00023a64" alias="22" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07IcerunnerTreas04" type="1" status="1">
-            <object formID="00023a64" alias="43" unused="0x0000" />
-          </property>
-          <property name="STIArrestKeyword" type="1" status="1">
-            <object formID="0100082e" alias="65535" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07SorexMarker" type="1" status="1">
-            <object formID="00023a64" alias="30" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07LighthouseFire" type="1" status="1">
-            <object formID="00023a64" alias="18" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07JareeRa" type="1" status="1">
-            <object formID="00023a64" alias="1" unused="0x0000" />
+          <property name="Alias_MS07DeejaNote" type="1" status="1">
+            <object formID="00023a64" alias="19" unused="0x0000" />
           </property>
           <property name="MS07BanditSiblings" type="1" status="1">
             <object formID="00025f95" alias="65535" unused="0x0000" />
           </property>
+          <property name="Alias_MS07IcerunnerTreas06" type="1" status="1">
+            <object formID="00023a64" alias="45" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerTreas01" type="1" status="1">
+            <object formID="00023a64" alias="40" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07BanditGreeter" type="1" status="1">
+            <object formID="00023a64" alias="28" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07SorexMarker" type="1" status="1">
+            <object formID="00023a64" alias="30" unused="0x0000" />
+          </property>
+          <property name="STIArrestKeyword" type="1" status="1">
+            <object formID="0100082e" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07DeejaIcerunnerMarker" type="1" status="1">
+            <object formID="00023a64" alias="25" unused="0x0000" />
+          </property>
+          <property name="MS07ArrestScene" type="1" status="1">
+            <object formID="01000818" alias="65535" unused="0x0000" />
+          </property>
+          <property name="AchievementsQuest" type="1" status="1">
+            <object formID="000fc85d" alias="65535" unused="0x0000" />
+          </property>
+          <property name="MS07BanditContact2WaitMarker" type="1" status="1">
+            <object formID="000267d9" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerLootEnabler" type="1" status="1">
+            <object formID="00023a64" alias="20" unused="0x0000" />
+          </property>
+          <property name="MS07OpeningScene" type="1" status="1">
+            <object formID="000c588d" alias="65535" unused="0x0000" />
+          </property>
+          <property name="SolitudeDocksDistrictMarker" type="1" status="1">
+            <object formID="0001b433" alias="65535" unused="0x0000" />
+          </property>
+          <property name="IcerunnerQST" type="1" status="1">
+            <object formID="000906d4" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IceRunnerMapMarker" type="1" status="1">
+            <object formID="00023a64" alias="33" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07JareeRaDocksMeetingMarker" type="1" status="1">
+            <object formID="00023a64" alias="24" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerChest" type="1" status="1">
+            <object formID="00023a64" alias="21" unused="0x0000" />
+          </property>
           <property name="CrimeFactionHaafingar" type="1" status="1">
             <object formID="00029db0" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07HargarsJournal" type="1" status="1">
+            <object formID="00023a64" alias="36" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerTreas03" type="1" status="1">
+            <object formID="00023a64" alias="42" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerTreas05" type="1" status="1">
+            <object formID="00023a64" alias="44" unused="0x0000" />
+          </property>
+          <property name="MS07BanditLeaderMarker" type="1" status="1">
+            <object formID="00023a67" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07IcerunnerTreas04" type="1" status="1">
+            <object formID="00023a64" alias="43" unused="0x0000" />
           </property>
           <property name="Alias_MS07JareeRaCampBrokenOarMarker" type="1" status="1">
             <object formID="00023a64" alias="26" unused="0x0000" />
           </property>
-          <property name="STI_MS07ArrestScene" type="1" status="1">
-            <object formID="01000818" alias="65535" unused="0x0000" />
+          <property name="Alias_MS07IcerunnerLoot" type="1" status="1">
+            <object formID="00023a64" alias="22" unused="0x0000" />
           </property>
-          <property name="Alias_MS07IcerunnerTreas02" type="1" status="1">
-            <object formID="00023a64" alias="41" unused="0x0000" />
+          <property name="Alias_MS07BrokenOarEntranceStageSetter" type="1" status="1">
+            <object formID="00023a64" alias="16" unused="0x0000" />
           </property>
-          <property name="Alias_MS07OpeningSceneTrigger" type="1" status="1">
-            <object formID="00023a64" alias="31" unused="0x0000" />
-          </property>
-          <property name="Alias_MS07GuardBackup" type="1" status="1">
-            <object formID="00023a64" alias="39" unused="0x0000" />
-          </property>
-          <property name="IcerunnerQST" type="1" status="1">
-            <object formID="000906d4" alias="65535" unused="0x0000" />
+          <property name="Alias_MS07SorexVinius" type="1" status="1">
+            <object formID="00023a64" alias="29" unused="0x0000" />
           </property>
           <property name="Alias_MS07BrokenOarGrottoMapMarker" type="1" status="1">
             <object formID="00023a64" alias="34" unused="0x0000" />
@@ -3014,10 +3535,44 @@
           <property name="Alias_MS07Deeja" type="1" status="1">
             <object formID="00023a64" alias="7" unused="0x0000" />
           </property>
+          <property name="Alias_MS07LighthouseFireOff" type="1" status="1">
+            <object formID="00023a64" alias="27" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07OpeningSceneTrigger" type="1" status="1">
+            <object formID="00023a64" alias="31" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07JareeRa" type="1" status="1">
+            <object formID="00023a64" alias="1" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07LighthouseMapMarker" type="1" status="1">
+            <object formID="00023a64" alias="32" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07GuardBackup" type="1" status="1">
+            <object formID="00023a64" alias="39" unused="0x0000" />
+          </property>
           <property name="MS07Rumor" type="1" status="1">
             <object formID="000aa9a9" alias="65535" unused="0x0000" />
           </property>
+          <property name="Alias_MS07IcerunnerTreas02" type="1" status="1">
+            <object formID="00023a64" alias="41" unused="0x0000" />
+          </property>
+          <property name="Alias_MS07Guard" type="1" status="1">
+            <object formID="00023a64" alias="37" unused="0x0000" />
+          </property>
+          <property name="PlayerFaction" type="1" status="1">
+            <object formID="00000db1" alias="65535" unused="0x0000" />
+          </property>
+          <property name="PotentialMarriageFaction" type="1" status="1">
+            <object formID="00019809" alias="65535" unused="0x0000" />
+          </property>
+          <property name="PotentialFollowerFaction" type="1" status="1">
+            <object formID="0005c84d" alias="65535" unused="0x0000" />
+          </property>
+          <property name="STIRevengeKeyword" type="1" status="1">
+            <object formID="01000835" alias="65535" unused="0x0000" />
+          </property>
         </script>
+        <script name="MS07Script" status="0" />
         <fragments unknown="0x02" filename="QF_MS07_00023A64">
           <fragment index="0" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_0" />
           <fragment index="125" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_43" />
@@ -3033,12 +3588,14 @@
           <fragment index="120" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_52" />
           <fragment index="100" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_14" />
           <fragment index="15" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_56" />
-          <fragment index="150" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_18" />
           <fragment index="175" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_44" />
+          <fragment index="150" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_18" />
           <fragment index="55" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_55" />
+          <fragment index="320" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_61" />
           <fragment index="110" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_51" />
-          <fragment index="225" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_45" />
           <fragment index="310" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_53" />
+          <fragment index="225" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_45" />
+          <fragment index="330" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_62" />
           <fragment index="350" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_MS07_00023A64" fragmentName="Fragment_54" />
           <alias unknown="0x00230000" object="0x00023a64" version="5" objectFormat="2">
             <script name="STI_MS07PlayerScript" status="0">
@@ -3094,68 +3651,69 @@
             </script>
           </alias>
           <alias unknown="0x00240000" object="0x00023a64" version="5" objectFormat="2">
-            <script name="defaultsetstageonclosebook" status="0">
-              <property name="preReqStage" type="3" status="1">10</property>
-              <property name="StageToSet" type="3" status="1">55</property>
+            <script name="defaultsetstagealiasscript" status="0">
+              <property name="prereqStageOPT" type="3" status="1">10</property>
+              <property name="stage" type="3" status="1">55</property>
+              <property name="TriggerType" type="3" status="1">10</property>
             </script>
           </alias>
           <alias unknown="0x00280000" object="0x00023a64" version="5" objectFormat="2">
             <script name="STI_MS07TreasureScript" status="0">
-              <property name="MS07Deeja" type="1" status="1">
-                <object formID="00023a64" alias="7" unused="0x0000" />
-              </property>
               <property name="MS07IcerunnerChest" type="1" status="1">
                 <object formID="00023a64" alias="21" unused="0x0000" />
+              </property>
+              <property name="MS07Deeja" type="1" status="1">
+                <object formID="00023a64" alias="7" unused="0x0000" />
               </property>
             </script>
           </alias>
           <alias unknown="0x00290000" object="0x00023a64" version="5" objectFormat="2">
             <script name="STI_MS07TreasureScript" status="0">
-              <property name="MS07Deeja" type="1" status="1">
-                <object formID="00023a64" alias="7" unused="0x0000" />
-              </property>
               <property name="MS07IcerunnerChest" type="1" status="1">
                 <object formID="00023a64" alias="21" unused="0x0000" />
+              </property>
+              <property name="MS07Deeja" type="1" status="1">
+                <object formID="00023a64" alias="7" unused="0x0000" />
               </property>
             </script>
           </alias>
           <alias unknown="0x002a0000" object="0x00023a64" version="5" objectFormat="2">
             <script name="STI_MS07TreasureScript" status="0">
-              <property name="MS07Deeja" type="1" status="1">
-                <object formID="00023a64" alias="7" unused="0x0000" />
-              </property>
               <property name="MS07IcerunnerChest" type="1" status="1">
                 <object formID="00023a64" alias="21" unused="0x0000" />
+              </property>
+              <property name="MS07Deeja" type="1" status="1">
+                <object formID="00023a64" alias="7" unused="0x0000" />
               </property>
             </script>
           </alias>
           <alias unknown="0x002b0000" object="0x00023a64" version="5" objectFormat="2">
             <script name="STI_MS07TreasureScript" status="0">
-              <property name="MS07Deeja" type="1" status="1">
-                <object formID="00023a64" alias="7" unused="0x0000" />
-              </property>
               <property name="MS07IcerunnerChest" type="1" status="1">
                 <object formID="00023a64" alias="21" unused="0x0000" />
+              </property>
+              <property name="MS07Deeja" type="1" status="1">
+                <object formID="00023a64" alias="7" unused="0x0000" />
               </property>
             </script>
           </alias>
           <alias unknown="0x002c0000" object="0x00023a64" version="5" objectFormat="2">
             <script name="STI_MS07TreasureScript" status="0">
-              <property name="MS07Deeja" type="1" status="1">
-                <object formID="00023a64" alias="7" unused="0x0000" />
-              </property>
               <property name="MS07IcerunnerChest" type="1" status="1">
                 <object formID="00023a64" alias="21" unused="0x0000" />
+              </property>
+              <property name="MS07Deeja" type="1" status="1">
+                <object formID="00023a64" alias="7" unused="0x0000" />
               </property>
             </script>
           </alias>
           <alias unknown="0x002d0000" object="0x00023a64" version="5" objectFormat="2">
             <script name="STI_MS07TreasureScript" status="0">
-              <property name="MS07Deeja" type="1" status="1">
-                <object formID="00023a64" alias="7" unused="0x0000" />
-              </property>
               <property name="MS07IcerunnerChest" type="1" status="1">
                 <object formID="00023a64" alias="21" unused="0x0000" />
+              </property>
+              <property name="MS07Deeja" type="1" status="1">
+                <object formID="00023a64" alias="7" unused="0x0000" />
               </property>
             </script>
           </alias>
@@ -3232,12 +3790,12 @@
         <struct index="130" flags="0x00" unknown="0" />
       </INDX>
       <QSDT>0</QSDT>
-      <CNAM>I've put out the Solitude Lighthouse fire and the Icerunner has failed to dock. I defeated Jaree-Ra, now I should head up Solitude's eastern shoreline to find where it's run aground.</CNAM>
+      <CNAM>I killed Jaree-Ra at the Solitude docks. Now I should head up Solitude's eastern shoreline to find where the Icerunner has run aground.</CNAM>
       <INDX>
         <struct index="150" flags="0x00" unknown="0" />
       </INDX>
       <QSDT>0</QSDT>
-      <CNAM>I've put out the Solitude Lighthouse fire and the Icerunner has run aground. When I went to meet Deeja at the wreck things went horribly wrong. I must defeat Deeja to retrieve my share of the loot.</CNAM>
+      <CNAM>I've put out the Solitude Lighthouse fire and the Icerunner has run aground. When I went to meet Deeja at the wreck, she turned on me. I must defeat Deeja to retrieve my share of the loot.</CNAM>
       <INDX>
         <struct index="175" flags="0x00" unknown="171" />
       </INDX>
@@ -3267,6 +3825,16 @@
       </INDX>
       <QSDT>1</QSDT>
       <CNAM>I uncovered Jaree-Ra's plans to conspire with the Blackblood Marauders and persuaded him to give up.</CNAM>
+      <INDX>
+        <struct index="320" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>1</QSDT>
+      <CNAM>I worked together with Jaree-Ra and the Blackblood Marauders to take the loot from the crashed Icerunner.</CNAM>
+      <INDX>
+        <struct index="330" flags="0x00" unknown="0" />
+      </INDX>
+      <QSDT>1</QSDT>
+      <CNAM>I betrayed Jaree-Ra and the Blackblood Marauders so that I could take the loot from the Icerunner for myself.</CNAM>
       <INDX>
         <struct index="350" flags="0x00" unknown="0" />
       </INDX>
@@ -3324,7 +3892,7 @@
         <unknown1>0xffffffff</unknown1>
       </CTDA>
       <QOBJ>15</QOBJ>
-      <FNAM>1</FNAM>
+      <FNAM>0</FNAM>
       <NNAM>Find evidence of Jaree-Ra's criminal activity</NNAM>
       <QSTA>
         <struct alias="36" flags="0x00000000" />
@@ -3631,41 +4199,17 @@
       <EDID>MS07_dunIcerunnerQST</EDID>
       <VMAD version="5" format="2">
         <script name="QF_dunIcerunnerQST_000906D4" status="0">
-          <property name="Alias_Bandit09" type="1" status="1">
-            <object formID="000906d4" alias="3" unused="0x0000" />
-          </property>
-          <property name="Alias_AmbushBanditDisableMarker" type="1" status="1">
-            <object formID="000906d4" alias="23" unused="0x0000" />
-          </property>
-          <property name="Alias_Bandit11" type="1" status="1">
-            <object formID="000906d4" alias="1" unused="0x0000" />
-          </property>
-          <property name="Alias_Bandit10" type="1" status="1">
-            <object formID="000906d4" alias="2" unused="0x0000" />
-          </property>
-          <property name="BanditFaction" type="1" status="1">
-            <object formID="0008e764" alias="65535" unused="0x0000" />
+          <property name="Alias_Bandit07" type="1" status="1">
+            <object formID="000906d4" alias="21" unused="0x0000" />
           </property>
           <property name="Alias_Bandit02" type="1" status="1">
             <object formID="000906d4" alias="10" unused="0x0000" />
           </property>
-          <property name="Alias_Bandit05" type="1" status="1">
-            <object formID="000906d4" alias="7" unused="0x0000" />
+          <property name="Alias_Bandit08" type="1" status="1">
+            <object formID="000906d4" alias="4" unused="0x0000" />
           </property>
-          <property name="Alias_RowboatEnableMarker" type="1" status="1">
-            <object formID="000906d4" alias="16" unused="0x0000" />
-          </property>
-          <property name="PlayerFaction" type="1" status="1">
-            <object formID="00000db1" alias="65535" unused="0x0000" />
-          </property>
-          <property name="Alias_Bandit13" type="1" status="1">
-            <object formID="000906d4" alias="12" unused="0x0000" />
-          </property>
-          <property name="Alias_Bandit04" type="1" status="1">
-            <object formID="000906d4" alias="20" unused="0x0000" />
-          </property>
-          <property name="Alias_Bandit01" type="1" status="1">
-            <object formID="000906d4" alias="19" unused="0x0000" />
+          <property name="BanditFaction" type="1" status="1">
+            <object formID="0008e764" alias="65535" unused="0x0000" />
           </property>
           <property name="Alias_Bandit03" type="1" status="1">
             <object formID="000906d4" alias="9" unused="0x0000" />
@@ -3673,20 +4217,44 @@
           <property name="Alias_AmbushBanditEnableMarker" type="1" status="1">
             <object formID="000906d4" alias="18" unused="0x0000" />
           </property>
-          <property name="Alias_Bandit08" type="1" status="1">
-            <object formID="000906d4" alias="4" unused="0x0000" />
+          <property name="Alias_Bandit13" type="1" status="1">
+            <object formID="000906d4" alias="12" unused="0x0000" />
           </property>
-          <property name="Alias_Bandit12" type="1" status="1">
-            <object formID="000906d4" alias="22" unused="0x0000" />
+          <property name="Alias_IcerunnerEnableMarker" type="1" status="1">
+            <object formID="000906d4" alias="13" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit04" type="1" status="1">
+            <object formID="000906d4" alias="20" unused="0x0000" />
+          </property>
+          <property name="Alias_AmbushBanditDisableMarker" type="1" status="1">
+            <object formID="000906d4" alias="23" unused="0x0000" />
           </property>
           <property name="GameHour" type="1" status="1">
             <object formID="00000038" alias="65535" unused="0x0000" />
           </property>
-          <property name="Alias_Bandit07" type="1" status="1">
-            <object formID="000906d4" alias="21" unused="0x0000" />
+          <property name="Alias_Bandit11" type="1" status="1">
+            <object formID="000906d4" alias="1" unused="0x0000" />
           </property>
-          <property name="Alias_IcerunnerEnableMarker" type="1" status="1">
-            <object formID="000906d4" alias="13" unused="0x0000" />
+          <property name="Alias_Bandit10" type="1" status="1">
+            <object formID="000906d4" alias="2" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit09" type="1" status="1">
+            <object formID="000906d4" alias="3" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit12" type="1" status="1">
+            <object formID="000906d4" alias="22" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit05" type="1" status="1">
+            <object formID="000906d4" alias="7" unused="0x0000" />
+          </property>
+          <property name="PlayerFaction" type="1" status="1">
+            <object formID="00000db1" alias="65535" unused="0x0000" />
+          </property>
+          <property name="Alias_RowboatEnableMarker" type="1" status="1">
+            <object formID="000906d4" alias="16" unused="0x0000" />
+          </property>
+          <property name="Alias_Bandit01" type="1" status="1">
+            <object formID="000906d4" alias="19" unused="0x0000" />
           </property>
         </script>
         <script name="STI_dunIcerunnerScript" status="0" />
@@ -3695,115 +4263,115 @@
           <fragment index="255" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_7" />
           <fragment index="400" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_9" />
           <fragment index="10" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_0" />
-          <fragment index="30" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_5" />
-          <fragment index="15" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_6" />
           <fragment index="300" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_8" />
+          <fragment index="15" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_6" />
+          <fragment index="30" unknown0="0x0000" logEntry="0" unknown1="0x01" scriptName="QF_dunIcerunnerQST_000906D4" fragmentName="Fragment_5" />
           <alias unknown="0x00130000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x000a0000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00090000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00140000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00070000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00150000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00040000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00030000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00020000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00010000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x00160000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
           <alias unknown="0x000c0000" object="0x000906d4" version="5" objectFormat="2">
             <script name="defaultSetStageOnAttackedRefAlias" status="0">
+              <property name="StageToSet" type="3" status="1">150</property>
+              <property name="playerOnly" type="5" status="1">1</property>
               <property name="myQST" type="1" status="1">
                 <object formID="00023a64" alias="65535" unused="0x0000" />
               </property>
-              <property name="StageToSet" type="3" status="1">150</property>
-              <property name="playerOnly" type="5" status="1">1</property>
             </script>
           </alias>
         </fragments>
@@ -4004,17 +4572,17 @@
       <EDID>STIJareeRaJailQuest</EDID>
       <VMAD version="5" format="2">
         <script name="STI_QF_STIJareeRaJailQuest" status="0">
-          <property name="Alias_JareeRa" type="1" status="1">
-            <object formID="0100082c" alias="0" unused="0x0000" />
-          </property>
           <property name="Alias_Guard" type="1" status="1">
             <object formID="0100082c" alias="1" unused="0x0000" />
           </property>
-          <property name="JailMarker" type="1" status="1">
-            <object formID="0100082a" alias="65535" unused="0x0000" />
+          <property name="Alias_JareeRa" type="1" status="1">
+            <object formID="0100082c" alias="0" unused="0x0000" />
           </property>
           <property name="PrisonerOutfit" type="1" status="1">
             <object formID="000a1983" alias="65535" unused="0x0000" />
+          </property>
+          <property name="JailMarker" type="1" status="1">
+            <object formID="0100082a" alias="65535" unused="0x0000" />
           </property>
         </script>
         <fragments unknown="0x02" filename="STI_QF_STIJareeRaJailQuest">
@@ -4028,13 +4596,25 @@
           </alias>
         </fragments>
       </VMAD>
-      <FULL>Jaree-Ra Jail Quest</FULL>
+      <FULL>Jaree-Ra goes to jail</FULL>
       <DNAM>
         <struct flags="0x0100" priority="70" unknown0="0xff" unknown1="0x00000000" type="8" />
       </DNAM>
       <ENAM>SCPT</ENAM>
       <FLTR>Misc\Solitude\</FLTR>
       <NEXT />
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>1</comparisonValueFloat>
+        <functionIndex>576</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x314b0000</param1>
+        <param2>0x0100082e</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
       <INDX>
         <struct index="10" flags="0x02" unknown="0" />
       </INDX>
@@ -4060,6 +4640,39 @@
       <FNAM>2</FNAM>
       <ALEQ>00023a64</ALEQ>
       <ALEA>37</ALEA>
+      <VTCK>00000000</VTCK>
+      <ALED />
+    </QUST>
+    <QUST flags="0x00000000" id="01000836" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaRevengeQuest</EDID>
+      <FULL>Jaree-Ra seeks revenge</FULL>
+      <DNAM>
+        <struct flags="0x0100" priority="60" unknown0="0xff" unknown1="0x00000000" type="8" />
+      </DNAM>
+      <ENAM>SCPT</ENAM>
+      <FLTR>Misc\Solitude\</FLTR>
+      <NEXT />
+      <CTDA>
+        <operator>0x00</operator>
+        <unknown0>0x00,0x00,0x00</unknown0>
+        <comparisonValueFloat>1</comparisonValueFloat>
+        <functionIndex>576</functionIndex>
+        <padding>0x00,0x00</padding>
+        <param1>0x314b0000</param1>
+        <param2>0x01000835</param2>
+        <runOnType>0</runOnType>
+        <reference>00000000</reference>
+        <unknown1>0xffffffff</unknown1>
+      </CTDA>
+      <INDX>
+        <struct index="10" flags="0x02" unknown="0" />
+      </INDX>
+      <ANAM>1</ANAM>
+      <ALST>0</ALST>
+      <ALID>JareeRa</ALID>
+      <FNAM>512</FNAM>
+      <ALUA>0001328d</ALUA>
+      <ALPC>0100083e</ALPC>
       <VTCK>00000000</VTCK>
       <ALED />
     </QUST>
@@ -4405,6 +5018,55 @@
         <struct type="0" data="00000000" />
       </PDTO>
     </PACK>
+    <PACK flags="0x00000000" id="01000828" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STI_MS07AldisFollowJareeRaToKeep</EDID>
+      <PKDT>
+        <struct miscFlags="0x00800000" packageType="18" interruptOverride="0" preferredSpeed="0" unknown="0x00" interruptFlags="0x00000020" />
+      </PKDT>
+      <PSDT>
+        <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
+      </PSDT>
+      <QNAM>00023a64</QNAM>
+      <PKCU>
+        <struct unknown0="0x00000006" packageTemplate="00019b2c" unknown1="0x00000004" />
+      </PKCU>
+      <ANAM>SingleRef</ANAM>
+      <PTDA>
+        <struct type="4" target="00000001" count="0" />
+      </PTDA>
+      <ANAM>Float</ANAM>
+      <CNAM>00000043</CNAM>
+      <ANAM>Float</ANAM>
+      <CNAM>00008043</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>0</UNAM>
+      <UNAM>1</UNAM>
+      <UNAM>2</UNAM>
+      <UNAM>4</UNAM>
+      <UNAM>6</UNAM>
+      <UNAM>8</UNAM>
+      <XNAM>9</XNAM>
+      <POBA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POEA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+      <POCA />
+      <INAM>00000000</INAM>
+      <PDTO>
+        <struct type="0" data="00000000" />
+      </PDTO>
+    </PACK>
     <PACK flags="0x00000000" id="0100082b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
       <EDID>STIJareeRaInPrison</EDID>
       <PKDT>
@@ -4471,39 +5133,91 @@
         <struct type="0" data="00000000" />
       </PDTO>
     </PACK>
-    <PACK flags="0x00000000" id="01000828" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
-      <EDID>STI_MS07AldisFollowJareeRaToKeep</EDID>
+    <PACK flags="0x00000000" id="0100083e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaRevengeForceGreet</EDID>
       <PKDT>
-        <struct miscFlags="0x00800000" packageType="18" interruptOverride="0" preferredSpeed="0" unknown="0x00" interruptFlags="0x00000020" />
+        <struct miscFlags="0x00000000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x0000ffff" />
       </PKDT>
       <PSDT>
         <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0" />
       </PSDT>
-      <QNAM>00023a64</QNAM>
+      <QNAM>01000836</QNAM>
       <PKCU>
-        <struct unknown0="0x00000006" packageTemplate="00019b2c" unknown1="0x00000004" />
+        <struct unknown0="0x00000014" packageTemplate="0003c1c4" unknown1="0x00000012" />
       </PKCU>
+      <ANAM>Topic</ANAM>
+      <PDTO>
+        <struct type="0" data="01000838" />
+      </PDTO>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="0" location="0x000251a3" radius="512" />
+      </PLDT>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="2" location="0x00000000" radius="1024" />
+      </PLDT>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="0" location="0x00000014" radius="300" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
       <ANAM>SingleRef</ANAM>
       <PTDA>
-        <struct type="4" target="00000001" count="0" />
+        <struct type="0" target="00000014" count="0" />
       </PTDA>
-      <ANAM>Float</ANAM>
-      <CNAM>00000043</CNAM>
-      <ANAM>Float</ANAM>
-      <CNAM>00008043</CNAM>
+      <ANAM>Location</ANAM>
+      <PLDT>
+        <struct type="0" location="0x00000014" radius="5000" />
+      </PLDT>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
       <ANAM>Bool</ANAM>
       <CNAM>01</CNAM>
       <ANAM>Bool</ANAM>
       <CNAM>00</CNAM>
       <ANAM>Bool</ANAM>
       <CNAM>00</CNAM>
-      <UNAM>0</UNAM>
-      <UNAM>1</UNAM>
-      <UNAM>2</UNAM>
-      <UNAM>4</UNAM>
-      <UNAM>6</UNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>01</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <ANAM>Float</ANAM>
+      <CNAM>00004842</CNAM>
+      <ANAM>Bool</ANAM>
+      <CNAM>00</CNAM>
+      <UNAM>7</UNAM>
       <UNAM>8</UNAM>
-      <XNAM>9</XNAM>
+      <UNAM>62</UNAM>
+      <UNAM>75</UNAM>
+      <UNAM>79</UNAM>
+      <UNAM>65</UNAM>
+      <UNAM>17</UNAM>
+      <UNAM>22</UNAM>
+      <UNAM>26</UNAM>
+      <UNAM>81</UNAM>
+      <UNAM>40</UNAM>
+      <UNAM>29</UNAM>
+      <UNAM>30</UNAM>
+      <UNAM>31</UNAM>
+      <UNAM>32</UNAM>
+      <UNAM>33</UNAM>
+      <UNAM>34</UNAM>
+      <UNAM>36</UNAM>
+      <UNAM>67</UNAM>
+      <UNAM>69</UNAM>
+      <XNAM>82</XNAM>
       <POBA />
       <INAM>00000000</INAM>
       <PDTO>
@@ -4523,26 +5237,15 @@
   </GRUP>
   <GRUP label="SMQN" groupType="0" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
     <SMQN flags="0x00000000" id="0100082f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
-      <EDID>STIArrestNode</EDID>
+      <EDID>STIAftermathNode</EDID>
       <PNAM>0001379a</PNAM>
       <SNAM>00017045</SNAM>
-      <CITC>1</CITC>
-      <CTDA>
-        <operator>0x00</operator>
-        <unknown0>0x00,0x00,0x00</unknown0>
-        <comparisonValueFloat>1</comparisonValueFloat>
-        <functionIndex>576</functionIndex>
-        <padding>0x00,0x00</padding>
-        <param1>0x314b0000</param1>
-        <param2>0x0100082e</param2>
-        <runOnType>0</runOnType>
-        <reference>00000000</reference>
-        <unknown1>0xffffffff</unknown1>
-      </CTDA>
+      <CITC>0</CITC>
       <DNAM>0</DNAM>
       <XNAM>0</XNAM>
-      <QNAM>1</QNAM>
+      <QNAM>2</QNAM>
       <NNAM>0100082c</NNAM>
+      <NNAM>01000836</NNAM>
     </SMQN>
   </GRUP>
   <GRUP label="DLBR" groupType="0" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">
@@ -4560,12 +5263,12 @@
       <DNAM>1</DNAM>
       <SNAM>01000804</SNAM>
     </DLBR>
-    <DLBR flags="0x00000000" id="0100080c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
-      <EDID>MS07JareeRaGiveUp</EDID>
+    <DLBR flags="0x00000000" id="01000806" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaWantIn</EDID>
       <QNAM>00023a64</QNAM>
       <TNAM>0</TNAM>
       <DNAM>1</DNAM>
-      <SNAM>0100080d</SNAM>
+      <SNAM>01000808</SNAM>
     </DLBR>
     <DLBR flags="0x00000000" id="0100080e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
       <EDID>MS07AldisInitialReport</EDID>
@@ -4581,12 +5284,19 @@
       <DNAM>1</DNAM>
       <SNAM>01000816</SNAM>
     </DLBR>
-    <DLBR flags="0x00000000" id="01000806" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
-      <EDID>MS07JareeRaWantIn</EDID>
+    <DLBR flags="0x00000000" id="01000837" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>STIJareeRaRevengeQuestForceGreet</EDID>
+      <QNAM>01000836</QNAM>
+      <TNAM>0</TNAM>
+      <DNAM>2</DNAM>
+      <SNAM>01000838</SNAM>
+    </DLBR>
+    <DLBR flags="0x00000000" id="0100080c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>MS07JareeRaGiveUp</EDID>
       <QNAM>00023a64</QNAM>
       <TNAM>0</TNAM>
-      <DNAM>0</DNAM>
-      <SNAM>01000808</SNAM>
+      <DNAM>1</DNAM>
+      <SNAM>0100080d</SNAM>
     </DLBR>
   </GRUP>
   <GRUP label="SCEN" groupType="0" day="138" month="40" lastUserID="0" currentUserID="0" unknown="0x00000000">

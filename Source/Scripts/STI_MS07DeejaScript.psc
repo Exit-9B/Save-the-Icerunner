@@ -13,7 +13,14 @@ Event OnDeath(Actor akKiller)
 	if MS07.GetStage() < 10
 		MS07.Stop()
 	elseif MS07.GetStage() >= 125 && MS07.GetStage() < 175
-		MS07.SetStage(175)
+		if (MS07 as MS07Script).WorkingTogether == 0
+			; Vanilla quest progression
+			MS07.SetStage(175)
+		else
+			; Player betrayed Deeja; we still assume the player killed her
+			; because there should be no natural causes on the ship
+			MS07.SetStage(330)
+		endif
 	endif
 EndEvent
 
@@ -32,7 +39,9 @@ Auto State waitingForPlayer
 			Quest MS07 = GetOwningQuest()
 			if MS07.GetStageDone(125)
 				GotoState("hasBeenTriggered")
-				MS07.SetStage(150)
+				if (MS07 as MS07Script).WorkingTogether == 0
+					MS07.SetStage(150)
+				endif
 			endif
 		endif
 	EndEvent

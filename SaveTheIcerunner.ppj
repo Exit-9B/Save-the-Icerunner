@@ -15,9 +15,11 @@
   </Imports>
   <Scripts>
     <!-- New scripts -->
+    <Script>STI_dunIcerunnerScript.psc</Script>
     <Script>STI_MS07BrokenOarEntranceScript.psc</Script>
     <Script>STI_MS07DeejaScript.psc</Script>
     <Script>STI_MS07JareeRaScript.psc</Script>
+    <Script>STI_MS07PlayerScript.psc</Script>
     <Script>STI_MS07RumorJareeRaScript.psc</Script>
     <Script>STI_MS07TreasureScript.psc</Script>
     <Script>STI_QF_STIJareeRaJailQuest.psc</Script>

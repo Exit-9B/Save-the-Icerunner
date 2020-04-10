@@ -1,85 +1,85 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 8
+;NEXT FRAGMENT INDEX 10
 Scriptname QF_dunIcerunnerQST_000906D4 Extends Quest Hidden
 
 ;BEGIN ALIAS PROPERTY Bandit02
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit02 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit02 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit12
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit12 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit12 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit05
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit05 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit05 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY IcerunnerEnableMarker
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_IcerunnerEnableMarker Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_IcerunnerEnableMarker Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit09
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit09 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit09 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit10
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit10 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit10 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit07
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit07 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit07 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY RowboatEnableMarker
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_RowboatEnableMarker Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_RowboatEnableMarker Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY AmbushBanditDisableMarker
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_AmbushBanditDisableMarker Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_AmbushBanditDisableMarker Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY AmbushBanditEnableMarker
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_AmbushBanditEnableMarker Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_AmbushBanditEnableMarker Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit04
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit04 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit04 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit03
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit03 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit03 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit13
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit13 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit13 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit01
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit01 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit01 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit11
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit11 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit11 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Bandit08
-;ALIAS PROPERTY TYPE referencealias
-referencealias Property Alias_Bandit08 Auto
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Bandit08 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN FRAGMENT Fragment_6
@@ -147,8 +147,27 @@ BanditFaction.SetEnemy(PlayerFaction)
 EndFunction
 ;END FRAGMENT
 
+;BEGIN FRAGMENT Fragment_8
+Function Fragment_8()
+;BEGIN CODE
+;Debug.Trace("STI - Scheduling the return of the Icerunner")
+RegisterForSingleUpdateGameTime(44 - GameHour.GetValue())
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_9
+Function Fragment_9()
+;BEGIN CODE
+;Debug.Trace("STI - Return of the Icerunner")
+;END CODE
+EndFunction
+;END FRAGMENT
+
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
 
 Faction Property BanditFaction  Auto  
 
 Faction Property PlayerFaction  Auto  
+
+GlobalVariable Property GameHour  Auto  

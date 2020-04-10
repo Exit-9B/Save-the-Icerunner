@@ -321,9 +321,10 @@ Function Fragment_50()
 SetObjectiveCompleted(100)               ; Meet with Jaree-Ra
 IcerunnerQST.SetStage(10)
 IcerunnerQST.SetStage(20)
+MS07BanditSiblings.SetEnemy(PlayerFaction)
 
-if !Alias_MS07Deeja.GetActorReference().IsDead()
-	MS07BanditSiblings.SetEnemy(PlayerFaction)
+if Alias_MS07Deeja.GetActorReference().IsDead()
+	(Alias_Player as STI_MS07PlayerScript).GotoState("endAtIcerunner")
 endif
 
 Alias_MS07IceRunnerMapMarker.GetRef().AddToMap()
@@ -360,7 +361,7 @@ EndFunction
 Function Fragment_53()
 ;BEGIN CODE
 ; STI: Stage 310 - Player convinces Jaree-Ra to give up
-setObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
+SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
 SetObjectiveCompleted(55)                 ; Confront Jaree-Ra
 ;END CODE
 EndFunction
@@ -373,7 +374,7 @@ Function Fragment_54()
 Actor Player = Alias_Player.GetActorReference()
 Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Player, -1)
 Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Player, -1)
-STIArrestKeyword.SendStoryEvent(akRef1=Alias_MS07Guard.GetReference())
+STIArrestKeyword.SendStoryEvent()
 ;END CODE
 EndFunction
 ;END FRAGMENT

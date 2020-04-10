@@ -2,22 +2,22 @@
 ;NEXT FRAGMENT INDEX 2
 Scriptname STI_TIF__AldisReportProof Extends TopicInfo Hidden
 
+;BEGIN FRAGMENT Fragment_0
+Function Fragment_0(ObjectReference akSpeakerRef)
+Actor akSpeaker = akSpeakerRef as Actor
+;BEGIN CODE
+PlayerRef.RemoveItem(MS07HargarsJournal.GetRef(), 1, false, akSpeakerRef)
+;END CODE
+EndFunction
+;END FRAGMENT
+
 ;BEGIN FRAGMENT Fragment_1
 Function Fragment_1(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
 akSpeakerRef.RemoveItem(MS07HargarsJournal.GetRef(), 1, false, PlayerRef)
 MS07Guard.ForceRefTo(akSpeakerRef)
-GetOwningQuest().SetStage(340)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_0
-Function Fragment_0(ObjectReference akSpeakerRef)
-Actor akSpeaker = akSpeakerRef as Actor
-;BEGIN CODE
-PlayerRef.RemoveItem(MS07HargarsJournal.GetRef(), 1, false, akSpeakerRef)
+GetOwningQuest().SetStage(90)
 ;END CODE
 EndFunction
 ;END FRAGMENT

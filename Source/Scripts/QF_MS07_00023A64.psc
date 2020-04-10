@@ -336,7 +336,6 @@ EndFunction
 Function Fragment_51()
 ;BEGIN CODE
 ; STI: Stage 110 - Player killed Deeja and Jaree-Ra turns on player
-IcerunnerQST.SetStage(20)
 MS07BanditSiblings.SetEnemy(PlayerFaction)
 Alias_MS07JareeRa.GetActorRef().StartCombat(Alias_Player.GetActorReference())
 Alias_MS07JareeRa.GetActorRef().SetCrimeFaction(None)
@@ -349,7 +348,6 @@ EndFunction
 Function Fragment_52()
 ;BEGIN CODE
 ; STI: Stage 120 - Deeja died and Jaree-Ra turns on player
-IcerunnerQST.SetStage(20)
 MS07BanditSiblings.SetEnemy(PlayerFaction)
 Alias_MS07JareeRa.GetActorRef().StartCombat(Alias_Player.GetActorReference())
 Alias_MS07JareeRa.GetActorRef().SetCrimeFaction(None)
@@ -385,6 +383,7 @@ Function Fragment_55()
 ;BEGIN CODE
 ; STI: Stage 55 - Player read Hargar's journal
 ;SetObjectiveFailed(10)               ; Listen to Jaree-Ra's offer in Solitude
+SetObjectiveCompleted(12)               ; Report Jaree-Ra to the guard captain
 SetObjectiveCompleted(15)               ; Find evidence of Jaree-Ra's criminal activity
 SetObjectiveDisplayed(55)               ; Confront Jaree-Ra
 SetObjectiveDisplayed(60)               ; Report Jaree-Ra to the guard captain
@@ -405,7 +404,7 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_59
 Function Fragment_59()
 ;BEGIN CODE
-; STI: Stage 90 - Captain Aldis arrests Jaree-Ra
+; STI: Stage 90 - Captain Aldis will arrest Jaree-Ra
 SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
 SetObjectiveDisplayed(60)
 SetObjectiveCompleted(60)                 ; Report Jaree-Ra to the guard captain

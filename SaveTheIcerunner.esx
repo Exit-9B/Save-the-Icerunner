@@ -2511,7 +2511,7 @@
           <alias unknown="0x00240000" object="0x00023a64" version="5" objectFormat="2">
             <script name="defaultsetstageonclosebook" status="0">
               <property name="StageToSet" type="3" status="1">55</property>
-              <property name="preReqStage" type="3" status="1">15</property>
+              <property name="preReqStage" type="3" status="1">10</property>
             </script>
           </alias>
           <alias unknown="0x00280000" object="0x00023a64" version="5" objectFormat="2">

@@ -5,7 +5,7 @@ Location Property IcerunnerLocation  Auto
 State endAtIcerunner
 
 	Event OnLocationChange(Location akOldLoc, Location akNewLoc)
-		if (akNewLoc == IcerunnerLocation)
+		if akNewLoc == IcerunnerLocation
 			GetOwningQuest().SetStage(250)
 			GotoState("end")
 		endif

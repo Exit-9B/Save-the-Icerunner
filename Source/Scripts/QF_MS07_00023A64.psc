@@ -183,7 +183,7 @@ Function Fragment_14()
 ; STI: Stage 100 - Player put out the fire
 alias_MS07LighthouseFireOff.GetRef().enable()
 alias_MS07LighthouseFire.GetRef().Disable()
-if IsObjectiveDisplayed(15) && !IsObjectiveCompleted(15)
+if !IsObjectiveCompleted(15)
 	SetObjectiveFailed(15)
 endif
 setObjectiveCompleted(50)               ; Put out the Solitude Lighthouse fire
@@ -332,6 +332,7 @@ EndFunction
 Function Fragment_49()
 ;BEGIN CODE
 ; STI: Stage 300 - Player killed Jaree-Ra without putting out the fire
+FailAllObjectives()
 IcerunnerQST.SetStage(300)
 Stop()
 ;END CODE
@@ -391,7 +392,11 @@ EndFunction
 Function Fragment_53()
 ;BEGIN CODE
 ; STI: Stage 310 - Player convinces Jaree-Ra to give up
-SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
+if GetStageDone(50)
+	SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
+else
+	SetObjectiveFailed(10)              ; Accept Jaree-Ra's offer in Solitude
+endif
 SetObjectiveCompleted(55)                 ; Confront Jaree-Ra
 IcerunnerQST.SetStage(300)
 Stop()
@@ -440,8 +445,11 @@ EndFunction
 Function Fragment_59()
 ;BEGIN CODE
 ; STI: Stage 90 - Captain Aldis will arrest Jaree-Ra
-SetObjectiveFailed(10)
-SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
+if GetStageDone(50)
+	SetObjectiveFailed(50)                 ; Put out the Solitude Lighthouse fire
+else
+	SetObjectiveFailed(10)              ; Accept Jaree-Ra's offer in Solitude
+endif
 SetObjectiveDisplayed(60)
 SetObjectiveCompleted(60)                 ; Report Jaree-Ra to the guard captain
 MS07ArrestScene.Start()

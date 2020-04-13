@@ -188,11 +188,21 @@ if !IsObjectiveCompleted(15)
 endif
 setObjectiveCompleted(50)               ; Put out the Solitude Lighthouse fire
 setObjectiveDisplayed(100)               ; Meet with Jaree-Ra
+
 ;move Jaree-Ra to docks
 
-alias_MS07JareeRa.GetRef().moveto(alias_MS07JareeRaDocksMeetingMarker.GetRef())
+Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
+Actor Deeja = Alias_MS07Deeja.GetActorReference()
 
-alias_MS07Deeja.GetRef().Disable()
+if !GetStageDone(65) || Deeja.IsDead()
+	JareeRa.SetCrimeFaction(None)
+	JareeRa.RemoveFromFaction(CrimeFactionHaafingar)
+endif
+JareeRa.MoveTo(alias_MS07JareeRaDocksMeetingMarker.GetRef())
+
+if !Deeja.IsDead()
+	Deeja.Disable()
+endif
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -296,13 +306,18 @@ Function Fragment_18()
 setObjectiveCompleted(125)                    ; Find Deeja at the wreck of the Icerunner
 setObjectiveDisplayed(150)                      ; Defeat Deeja
 
-IcerunnerQST.Setstage(20)
+IcerunnerQST.SetStage(20)
 MS07BanditSiblings.SetEnemy(PlayerFaction)
-Alias_MS07Deeja.GetActorRef().startcombat(Alias_Player.GetActorReference())
-Alias_MS07JareeRa.GetRef().moveto(alias_MS07JareeRaCampBrokenOarMarker.GetRef())
-Alias_MS07JareeRa.GetActorRef().SetCrimeFaction(None)
-Alias_MS07JareeRa.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
-Alias_MS07Deeja.GetREf().AddItem(Alias_MS07DeejaNote.GetRef())
+
+Actor Deeja = Alias_MS07Deeja.GetActorReference()
+Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
+Deeja.StartCombat(Alias_Player.GetActorReference())
+;Deeja.GetActorBase().SetEssential(false)
+JareeRa.MoveTo(alias_MS07JareeRaCampBrokenOarMarker.GetRef())
+;JareeRa.GetActorBase().SetEssential(false)
+JareeRa.SetCrimeFaction(None)
+JareeRa.RemoveFromFaction(CrimeFactionHaafingar)
+Deeja.AddItem(Alias_MS07DeejaNote.GetRef())
 Alias_MS07DeejaNote.GetRef().Enable()
 ;END CODE
 EndFunction
@@ -352,6 +367,8 @@ Actor Deeja = Alias_MS07Deeja.GetActorReference()
 if Deeja.IsDead()
 	(Alias_Player as STI_MS07PlayerScript).GotoState("endAtIcerunner")
 else
+	Deeja.MoveTo(Alias_MS07DeejaIcerunnerMarker.GetRef())
+	Deeja.Enable()
 	; STI: Make sure Ebony Blade doesn't power up
 	Deeja.SetRelationshipRank(Alias_Player.GetActorRef(), -1)
 endif
@@ -369,9 +386,10 @@ Function Fragment_51()
 ;BEGIN CODE
 ; STI: Stage 110 - Player killed Deeja and Jaree-Ra turns on player
 MS07BanditSiblings.SetEnemy(PlayerFaction)
-Alias_MS07JareeRa.GetActorRef().StartCombat(Alias_Player.GetActorReference())
-Alias_MS07JareeRa.GetActorRef().SetCrimeFaction(None)
-Alias_MS07JareeRa.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
+Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
+JareeRa.StartCombat(Alias_Player.GetActorReference())
+JareeRa.SetCrimeFaction(None)
+JareeRa.RemoveFromFaction(CrimeFactionHaafingar)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -381,9 +399,10 @@ Function Fragment_52()
 ;BEGIN CODE
 ; STI: Stage 120 - Deeja died and Jaree-Ra turns on player
 MS07BanditSiblings.SetEnemy(PlayerFaction)
-Alias_MS07JareeRa.GetActorRef().StartCombat(Alias_Player.GetActorReference())
-Alias_MS07JareeRa.GetActorRef().SetCrimeFaction(None)
-Alias_MS07JareeRa.GetActorRef().RemoveFromFaction(CrimeFactionHaafingar)
+Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
+JareeRa.StartCombat(Alias_Player.GetActorReference())
+JareeRa.SetCrimeFaction(None)
+JareeRa.RemoveFromFaction(CrimeFactionHaafingar)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -462,10 +481,12 @@ Function Fragment_61()
 ;BEGIN CODE
 ; STI: Stage 320 - Player worked together with the bandits
 SetObjectiveCompleted(125)                 ; Find Deeja at the wreck of the Icerunner
-Alias_MS07JareeRa.GetActorRef().AddToFaction(PotentialFollowerFaction)
-Alias_MS07JareeRa.GetActorRef().AddToFaction(PotentialMarriageFaction)
-Alias_MS07Deeja.GetActorRef().AddToFaction(PotentialFollowerFaction)
-Alias_MS07Deeja.GetActorRef().AddToFaction(PotentialMarriageFaction)
+Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
+Actor Deeja = Alias_MS07Deeja.GetActorReference()
+JareeRa.AddToFaction(PotentialFollowerFaction)
+JareeRa.AddToFaction(PotentialMarriageFaction)
+Deeja.AddToFaction(PotentialFollowerFaction)
+Deeja.AddToFaction(PotentialMarriageFaction)
 Stop()
 ;END CODE
 EndFunction

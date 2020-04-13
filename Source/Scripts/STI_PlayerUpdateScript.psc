@@ -6,6 +6,9 @@ int myVersion
 Quest Property MS07  Auto
 Quest Property MS07_dunIcerunnerQST  Auto
 
+ActorBase Property Deeja  Auto
+ActorBase Property JareeRa  Auto
+
 Event OnInit()
 	if MS07.IsRunning() && (MS07.GetAlias(36) as ReferenceAlias).GetRef() == None
 		InstallOnExistingSave()
@@ -18,6 +21,11 @@ Function InstallOnExistingSave()
 {Skyrim doesn't like it when you make changes to an existing quest.}
 
 	Debug.Trace("STI - User installed on an existing save.")
+
+	(MS07.GetAlias(1) as defaultsetstagealiasscript).prereqStageOPT = 250
+	(MS07.GetAlias(7) as defaultsetstagealiasscript).prereqStageOPT = 175
+	(MS07.GetAlias(7) as MS07setstageonhitaliasscript).prereqStageOPT = 150
+	(MS07.GetAlias(16) as defaultsetstagealiasscript).prereqStageOPT = 225
 
 	(MS07.GetAlias(36) as ReferenceAlias).ForceRefTo(\
 			Game.GetFormFromFile(0x0BABB5, "Skyrim.esm") as ObjectReference)
@@ -38,9 +46,11 @@ Function InstallOnExistingSave()
 	(MS07.GetAlias(45) as ReferenceAlias).ForceRefTo(\
 			Game.GetFormFromFile(0x07AA91, "Skyrim.esm") as ObjectReference)
 
+	Deeja.SetEssential(false)
+	JareeRa.SetEssential(false)
+
 	if MS07_dunIcerunnerQST.IsRunning()
 		(MS07_dunIcerunnerQST.GetAlias(24) as ReferenceAlias).ForceRefTo(\
-				Game.GetFormFromFile(0x00E4C7, "SaveTheIcerunner.esp") as ObjectReference)
+				Game.GetFormFromFile(0xBF5, "SaveTheIcerunner.esp") as ObjectReference)
 	endif
-
 EndFunction

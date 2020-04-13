@@ -3,7 +3,7 @@
   Flags="TESV_Papyrus_Flags.flg"
   Output="@myproject\Scripts"
   Game="sse"
-  Optimize="true" Anonymize="true" Package="true" Zip="false">
+  Optimize="true" Anonymize="true" Package="true" Zip="true">
   <Variables>
     <Variable Name="modname" Value="Save the Icerunner"/>
     <Variable Name="plugin" Value="SaveTheIcerunner"/>
@@ -54,6 +54,8 @@
     </Package>
   </Packages>
   <ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
+    <Include>@plugin.esp</Include>
+    <Include>@plugin.bsa</Include>
     <Include NoRecurse="false">Source</Include>
   </ZipFile>
 </PapyrusProject>

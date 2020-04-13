@@ -418,6 +418,7 @@ else
 endif
 SetObjectiveCompleted(55)                 ; Confront Jaree-Ra
 IcerunnerQST.SetStage(300)
+AchievementsQuest.IncSideQuests()
 Stop()
 ;END CODE
 EndFunction
@@ -433,6 +434,7 @@ Actor Player = Alias_Player.GetActorReference()
 Alias_MS07Deeja.GetActorRef().SetRelationshipRank(Player, -1)
 Alias_MS07JareeRa.GetActorRef().SetRelationshipRank(Player, -1)
 IcerunnerQST.SetStage(300)
+AchievementsQuest.IncSideQuests()
 Stop()
 ;END CODE
 EndFunction
@@ -487,6 +489,10 @@ JareeRa.AddToFaction(PotentialFollowerFaction)
 JareeRa.AddToFaction(PotentialMarriageFaction)
 Deeja.AddToFaction(PotentialFollowerFaction)
 Deeja.AddToFaction(PotentialMarriageFaction)
+
+Alias_MS07LighthouseFireOff.GetReference().Disable()
+Alias_MS07LighthouseFire.GetReference().Enable()
+AchievementsQuest.IncSideQuests()
 Stop()
 ;END CODE
 EndFunction
@@ -509,6 +515,9 @@ if !JareeRa.IsDead()
 	STIRevengeKeyword.SendStoryEvent()
 endif
 
+Alias_MS07LighthouseFireOff.GetReference().Disable()
+Alias_MS07LighthouseFire.GetReference().Enable()
+AchievementsQuest.IncSideQuests()
 Stop()
 ;END CODE
 EndFunction

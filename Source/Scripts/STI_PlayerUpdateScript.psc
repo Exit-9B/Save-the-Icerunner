@@ -9,13 +9,39 @@ Quest Property MS07_dunIcerunnerQST  Auto
 ActorBase Property Deeja  Auto
 ActorBase Property JareeRa  Auto
 
+GlobalVariable Property IcerunnerReturnEnabled  Auto
+
+ObjectReference Property SolitudeDocksEnableMarker  Auto
+
 Event OnInit()
-	if MS07.IsRunning() && (MS07.GetAlias(36) as ReferenceAlias).GetRef() == None
+	while (MS07.GetAlias(34) as ReferenceAlias).GetRef() == None
+		; Expect this to happen once on a new game
+		;Debug.Trace("STI - Aliases haven't filled yet")
+		Utility.Wait(1)
+	endwhile
+
+	if (MS07.GetAlias(36) as ReferenceAlias).GetRef() == None
 		InstallOnExistingSave()
 	endif
 
 	myVersion = Version
+
+	UpdateDocks()
 EndEvent
+
+Function OnPlayerLoadGame()
+	UpdateDocks()
+EndFunction
+
+Function UpdateDocks()
+	if !MS07_dunIcerunnerQST.GetStageDone(400)
+		if IcerunnerReturnEnabled.GetValueInt()
+			SolitudeDocksEnableMarker.Enable()
+		else
+			SolitudeDocksEnableMarker.Disable()
+		endif
+	endif
+EndFunction
 
 Function InstallOnExistingSave()
 {Skyrim doesn't like it when you make changes to an existing quest.}

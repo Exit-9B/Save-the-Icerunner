@@ -14,13 +14,8 @@ GlobalVariable Property IcerunnerReturnEnabled  Auto
 ObjectReference Property SolitudeDocksEnableMarker  Auto
 
 Event OnInit()
-	while (MS07.GetAlias(34) as ReferenceAlias).GetRef() == None
-		; Expect this to happen once on a new game
-		;Debug.Trace("STI - Aliases haven't filled yet")
-		Utility.Wait(1)
-	endwhile
-
-	if (MS07.GetAlias(36) as ReferenceAlias).GetRef() == None
+	if (MS07.GetAlias(34) as ReferenceAlias).GetRef() != None && \
+			(MS07.GetAlias(36) as ReferenceAlias).GetRef() == None
 		InstallOnExistingSave()
 	endif
 

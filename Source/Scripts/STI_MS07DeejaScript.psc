@@ -39,9 +39,7 @@ Auto State waitingForPlayer
 			Quest MS07 = GetOwningQuest()
 			if MS07.GetStageDone(125)
 				GotoState("hasBeenTriggered")
-				if !MS07.GetStageDone(65)
-					MS07.SetStage(150)
-				endif
+				MS07.SetStage(150)
 			endif
 		endif
 	EndEvent

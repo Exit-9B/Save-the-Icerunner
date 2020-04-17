@@ -205,7 +205,7 @@ Function Fragment_42()
 ;BEGIN CODE
 ; Stage 50 - Player accepted Jaree-Ra's offer
 ; Beginning of the vanilla route, but doesn't close off alternate routes
-SetObjectiveCompleted(10)               ; Accept Jaree-Ra's offer in Solitude             
+SetObjectiveCompleted(10)               ; Accept Jaree-Ra's offer in Solitude
 SetObjectiveDisplayed(50)                 ; Put out the Solitude Lighthouse fire
 MS07Rumor.SetStage(20)
 Alias_MS07LighthouseMapMarker.GetRef().AddToMap()
@@ -219,6 +219,7 @@ Function Fragment_55()
 ; Stage 55 - Player read Hargar's journal
 ; This is where most of the alternate routes open up. You can't accept the job
 ; anymore if you haven't already.
+SetObjectiveDisplayed(10, false)               ; Accept Jaree-Ra's offer in Solitude
 SetObjectiveDisplayed(12, false)               ; Report Jaree-Ra to the guard captain
 SetObjectiveCompleted(15)               ; Find evidence of Jaree-Ra's criminal activity
 SetObjectiveDisplayed(55)               ; Confront Jaree-Ra
@@ -232,8 +233,9 @@ Function Fragment_63()
 ;BEGIN CODE
 ; Stage 65 - Player persuaded Jaree-Ra to work together
 ; Now you can go and do the job like in vanilla, but they won't betray you.
-SetStage(50)
 SetObjectiveCompleted(55)                 ; Confront Jaree-Ra
+SetObjectiveDisplayed(10)               ; Accept Jaree-Ra's offer in Solitude
+SetStage(50)
 
 ; Set up Ebony Blade for top 10 anime betrayals
 Actor Player = Alias_Player.GetActorReference()
@@ -343,6 +345,9 @@ if !GetStageDone(65)
 	Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
 	Deeja.SetRelationshipRank(Player, -1)
 	JareeRa.SetRelationshipRank(Player, -1)
+else
+	; Block player from taking Deeja's share
+	Alias_MS07IcerunnerTreas05.GetReference().BlockActivation(true)
 endif
 
 
@@ -387,7 +392,7 @@ EndFunction
 ;BEGIN FRAGMENT Fragment_18
 Function Fragment_18()
 ;BEGIN CODE
-; Stage 150 - Deeja turned on player at the Icerunner
+; Stage 150 - Deeja fights with player at the Icerunner
 ; Fourth major stage of the vanilla route.
 SetObjectiveCompleted(125)                    ; Find Deeja at the wreck of the Icerunner
 SetObjectiveDisplayed(150)                      ; Defeat Deeja
@@ -399,12 +404,14 @@ Actor Deeja = Alias_MS07Deeja.GetActorReference()
 Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
 Deeja.StartCombat(Alias_Player.GetActorReference())
 ;Deeja.GetActorBase().SetEssential(false)
-JareeRa.MoveTo(alias_MS07JareeRaCampBrokenOarMarker.GetRef())
-;JareeRa.GetActorBase().SetEssential(false)
-JareeRa.SetCrimeFaction(None)
-JareeRa.RemoveFromFaction(CrimeFactionHaafingar)
-Deeja.AddItem(Alias_MS07DeejaNote.GetRef())
-Alias_MS07DeejaNote.GetRef().Enable()
+if !GetStageDone(65)
+	JareeRa.MoveTo(alias_MS07JareeRaCampBrokenOarMarker.GetRef())
+	;JareeRa.GetActorBase().SetEssential(false)
+	JareeRa.SetCrimeFaction(None)
+	JareeRa.RemoveFromFaction(CrimeFactionHaafingar)
+	Deeja.AddItem(Alias_MS07DeejaNote.GetRef())
+	Alias_MS07DeejaNote.GetRef().Enable()
+endif
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -508,6 +515,11 @@ Function Fragment_61()
 ;BEGIN CODE
 ; Stage 320 - Player worked together with the bandits
 SetObjectiveCompleted(125)                 ; Find Deeja at the wreck of the Icerunner
+
+; Disappear Deeja's share into the void
+Alias_MS07IcerunnerTreas05.GetReference().RemoveAllItems()
+Alias_MS07IcerunnerTreas05.GetReference().BlockActivation(false)
+
 Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
 Actor Deeja = Alias_MS07Deeja.GetActorReference()
 JareeRa.AddToFaction(PotentialFollowerFaction)
@@ -533,6 +545,11 @@ endif
 if IsObjectiveDisplayed(130)
 	SetObjectiveCompleted(130)                 ; Travel to the wreck of the Icerunner
 endif
+SetObjectiveCompleted(150)
+
+IcerunnerQST.SetStage(20)
+
+Alias_MS07IcerunnerTreas05.GetReference().BlockActivation(false)
 
 Actor JareeRa = Alias_MS07JareeRa.GetActorReference()
 if !JareeRa.IsDead()

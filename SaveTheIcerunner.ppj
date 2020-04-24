@@ -57,6 +57,7 @@
   <ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
     <Include>@plugin.esp</Include>
     <Include>@plugin.bsa</Include>
+    <Include>@plugin.modgroups</Include>
     <Include NoRecurse="false">Source</Include>
   </ZipFile>
 </PapyrusProject>

@@ -2,7 +2,7 @@
 <plugin version="0.5">
   <TES4 flags="0x00000000" id="00000000" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
     <HEDR>
-      <struct version="1.70000005" numRecords="1291" nextObjectID="00005d0f" />
+      <struct version="1.70000005" numRecords="1312" nextObjectID="00005d0f" />
     </HEDR>
     <CNAM>Parapets</CNAM>
     <MAST>Skyrim.esm</MAST>
@@ -10901,6 +10901,303 @@
         </CTDA>
       </INFO>
     </GRUP>
+    <DIAL flags="0x00000000" id="00084972" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>DialogueSolitudeJalaBranchTopic</EDID>
+      <FULL>Don't you have trouble getting ripe goods here?</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>00085360</BNAM>
+      <QNAM>0002e1ad</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x00084972" groupType="7" day="0" month="0" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="0008497c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>I have my ways, but it's not easy these days.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="1" emotionValue="30" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>The Blackblood Marauders have been plundering ships off the coast. A lot of people been hurt by their foolishness.</NAM1>
+        <NAM2></NAM2>
+        <NAM3>The Black Blood Marauders have been plundering ships and they've messed up things for many.</NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x000000fa</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000014a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328c</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000c1a9d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>0008497c</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>It's been easier lately.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>The Blackblood Marauders haven't been here since the Icerunner attack, so my shipments have been more regular.</NAM1>
+        <NAM2></NAM2>
+        <NAM3>The Black Blood Marauders haven't been seen since the Icerunner attack so my shipments have been more regular.</NAM3>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x000000fa</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000014a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001328c</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="00084977" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>DialogueSolitudeEndarieBranchTopic</EDID>
+      <FULL>Do you get a lot of business like that?</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>0008535b</BNAM>
+      <QNAM>0002e1ad</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>5</TIFC>
+    </DIAL>
+    <GRUP label="0x00084977" groupType="7" day="0" month="0" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000c0e01" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="5" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>I suppose I would, but you're the only one who gets that greeting.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>403</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001326f</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000c0e02" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0004" resetTime="0" />
+        </ENAM>
+        <PNAM>000c0e01</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>It's never been an issue. People say you helped with the problems at Wolfskull Cave.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <TRDT>
+          <struct emotionType="5" emotionValue="10" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>I applaud anyone who assists the court.</NAM1>
+        <NAM2></NAM2>
+        <NAM3>Anyone who helps the court out is all right with me.</NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>403</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>543</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00026c4d</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001326f</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000c0e03" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0004" resetTime="0" />
+        </ENAM>
+        <PNAM>000c0e02</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Oh, we do all right. Rumor is, you had a hand in the Blackblood Marauders' demise...</NAM1>
+        <NAM2></NAM2>
+        <NAM3>We do all right. Rumor has it you had something to do with the end of the Black Blood Marauders.</NAM3>
+        <TRDT>
+          <struct emotionType="5" emotionValue="10" unknown0="0x00000000" id="2" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>I'm impressed.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>403</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x000000fa</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000014a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x0001326f</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
     <DIAL flags="0x00000000" id="0009d9b6" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
       <EDID>MS07JareeRaWalkawayTopic</EDID>
       <PNAM>50</PNAM>
@@ -10955,6 +11252,95 @@
           <reference>00000000</reference>
           <unknown1>0xffffffff</unknown1>
         </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="000bfade" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+      <EDID>DialogueSolitudeHeimvar02Topic02</EDID>
+      <FULL>What's your problem with Jaree-Ra?</FULL>
+      <PNAM>50</PNAM>
+      <BNAM>000bfafa</BNAM>
+      <QNAM>0002e1ad</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="0" subtypeID="0" unused="0x00" />
+      </DATA>
+      <SNAM>1414747459</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x000bfade" groupType="7" day="0" month="0" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000bfae4" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="1" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Captain Aldis can't prove it, but that Argonian is up to no good.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>2</runOnType>
+          <reference>000198b9</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00013286</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000bfae5" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000bfae4</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="6" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Really? I knew he was mixed up in something dangerous, but I hadn't heard he was dead.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>46</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00000000</param1>
+          <param2>0x00000000</param2>
+          <runOnType>2</runOnType>
+          <reference>000198b9</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>72</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00013286</param1>
+          <param2>0x00000000</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <RNAM>Jaree-Ra is dead.</RNAM>
       </INFO>
     </GRUP>
     <DIAL flags="0x00000000" id="000c1a33" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
@@ -11339,6 +11725,177 @@
           <unknown1>0xffffffff</unknown1>
         </CTDA>
         <RNAM>He's in jail now, thanks to me.</RNAM>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="000c7ab9" day="0" month="0" lastUserID="0" currentUserID="0" version="40" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>000c7cf5</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x000c7ab9" groupType="7" day="0" month="0" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000c7bad" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>It's those damned Blackblood Marauders. They're scaring off shipping.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x000000fa</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000014a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000c7baf" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000c7bad</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>One apple. Since the Blackbloods were dispatched I've had good luck getting shipments.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <SNAM>000b5e20</SNAM>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x000000fa</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000014a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+    </GRUP>
+    <DIAL flags="0x00000000" id="000c7aba" day="0" month="0" lastUserID="0" currentUserID="0" version="40" unknown="0x0000">
+      <PNAM>50</PNAM>
+      <QNAM>000c7cf5</QNAM>
+      <DATA>
+        <struct flag="0x00" dialogueTab="2" subtypeID="14" unused="0x00" />
+      </DATA>
+      <SNAM>1313162067</SNAM>
+      <TIFC>2</TIFC>
+    </DIAL>
+    <GRUP label="0x000c7aba" groupType="7" day="0" month="0" lastUserID="0" currentUserID="0" unknown="0x00000000">
+      <INFO flags="0x00000000" id="000c7cbf" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>00000000</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Your fruit are looking a little less ripe today.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x000000fa</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x00</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>0</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000014a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+      </INFO>
+      <INFO flags="0x00000000" id="000c7cc8" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0000">
+        <ENAM>
+          <struct flags="0x0000" resetTime="0" />
+        </ENAM>
+        <PNAM>000c7cbf</PNAM>
+        <CNAM>0</CNAM>
+        <TRDT>
+          <struct emotionType="0" emotionValue="50" unknown0="0x00000000" id="1" unknown1="0x00|0x00|0x00" soundFile="00000000" useEmotionAnimation="1" unknown2="0x00|0x00|0x00" />
+        </TRDT>
+        <NAM1>Your selection looks very delicious. I'll take an apple.</NAM1>
+        <NAM2></NAM2>
+        <NAM3></NAM3>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x000000fa</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
+        <CTDA>
+          <operator>0x01</operator>
+          <unknown0>0x00,0x00,0x00</unknown0>
+          <comparisonValueFloat>1</comparisonValueFloat>
+          <functionIndex>59</functionIndex>
+          <padding>0x00,0x00</padding>
+          <param1>0x00023a64</param1>
+          <param2>0x0000014a</param2>
+          <runOnType>0</runOnType>
+          <reference>00000000</reference>
+          <unknown1>0xffffffff</unknown1>
+        </CTDA>
       </INFO>
     </GRUP>
     <DIAL flags="0x00000000" id="000d6c4e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown="0x0004">
